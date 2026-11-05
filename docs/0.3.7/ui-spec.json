@@ -1,0 +1,348 @@
+{
+ "canvas": {
+  "width": 432,
+  "height": 514,
+  "safeEdge": 8
+ },
+ "package": {
+  "name": "com.codex.yakata.rw5",
+  "maxBytes": 25000000,
+  "currentBytes": 14489745
+ },
+ "fonts": {
+  "body": {
+   "file": "src/common/watch.otf",
+   "bytes": 496836,
+   "css": "font-family:yakata",
+   "note": "must keep: covers all 17,394 story lines"
+  },
+  "title": {
+   "file": "src/common/title-font.ttf",
+   "bytes": 8112,
+   "origin": "original MTLc3m.ttf subset (モトヤLシーダ3)"
+  }
+ },
+ "screens": {
+  "title": {
+   "entries": [
+    {
+     "id": "start",
+     "label": "NEW GAME"
+    },
+    {
+     "id": "load",
+     "label": "LOAD GAME"
+    },
+    {
+     "id": "gallery",
+     "label": "GALLERY"
+    },
+    {
+     "id": "settings",
+     "label": "CONFIG"
+    },
+    {
+     "id": "end",
+     "label": "END GAME"
+    }
+   ],
+   "originalCoordinates": "可调用资源/text/patch/title.csv (222x46 @ x=80, y=379..628 on 800x600)",
+   "availableOriginalArt": [
+    "uipsd/title@allbtns%cref;off.png (217x293)",
+    "uipsd/title@allbtns%cref;over.png (217x293)",
+    "uipsd/title@logo%layer.png (455x317)"
+   ]
+  },
+  "reading": {
+   "stage": [
+    0,
+    0,
+    432,
+    286
+   ],
+   "dialogue": [
+    0,
+    286,
+    432,
+    228
+   ]
+  },
+  "menus": [
+   "menu",
+   "chapters",
+   "slots",
+   "confirm",
+   "settings",
+   "gallery",
+   "cg",
+   "end",
+   "about"
+  ]
+ },
+ "palette": {
+  "baseA": "#0a1420",
+  "baseB": "#0d1b2a",
+  "innerStroke": "#2c4257",
+  "mainStroke": "#779bbc",
+  "highlight": "#cfe0f0",
+  "btnTop": "#8f86a8",
+  "btnBottom": "#6a6280",
+  "btnEdge": "#e8e6f0",
+  "btnTopPressed": "#5c5470",
+  "btnBottomPressed": "#3f3a52",
+  "accentGold": "#d8b46a",
+  "prose": "#f3f6fb",
+  "speaker": "#aad9ff",
+  "chapterTag": "#8ca6be"
+ },
+ "assets": [
+  {
+   "file": "src/common/ui2/box.png",
+   "url": "/common/ui2/box.png",
+   "width": 432,
+   "height": 228,
+   "mode": "RGBA",
+   "bytes": 1239,
+   "usedBy": [
+    ".dialogue-panel"
+   ]
+  },
+  {
+   "file": "src/common/ui2/btn.png",
+   "url": "/common/ui2/btn.png",
+   "width": 380,
+   "height": 52,
+   "mode": "RGBA",
+   "bytes": 1228,
+   "usedBy": [
+    ".button",
+    ".primary"
+   ]
+  },
+  {
+   "file": "src/common/ui2/btn_press.png",
+   "url": "/common/ui2/btn_press.png",
+   "width": 380,
+   "height": 52,
+   "mode": "RGBA",
+   "bytes": 1155,
+   "usedBy": [
+    ".muted"
+   ]
+  },
+  {
+   "file": "src/common/ui2/btn_small.png",
+   "url": "/common/ui2/btn_small.png",
+   "width": 118,
+   "height": 46,
+   "mode": "RGBA",
+   "bytes": 927,
+   "usedBy": [
+    ".tool",
+    ".menu-cell"
+   ]
+  },
+  {
+   "file": "src/common/ui2/btn_small_press.png",
+   "url": "/common/ui2/btn_small_press.png",
+   "width": 118,
+   "height": 46,
+   "mode": "RGBA",
+   "bytes": 881,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/card_plate.png",
+   "url": "/common/ui2/card_plate.png",
+   "width": 176,
+   "height": 150,
+   "mode": "RGBA",
+   "bytes": 658,
+   "usedBy": [
+    ".gallery-card"
+   ]
+  },
+  {
+   "file": "src/common/ui2/chapter_plate.png",
+   "url": "/common/ui2/chapter_plate.png",
+   "width": 400,
+   "height": 64,
+   "mode": "RGBA",
+   "bytes": 615,
+   "usedBy": [
+    ".chapter-card"
+   ]
+  },
+  {
+   "file": "src/common/ui2/cursor.png",
+   "url": "/common/ui2/cursor.png",
+   "width": 14,
+   "height": 14,
+   "mode": "RGBA",
+   "bytes": 483,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/divider.png",
+   "url": "/common/ui2/divider.png",
+   "width": 260,
+   "height": 16,
+   "mode": "RGBA",
+   "bytes": 1138,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/namebar.png",
+   "url": "/common/ui2/namebar.png",
+   "width": 432,
+   "height": 42,
+   "mode": "RGBA",
+   "bytes": 287,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/panel.png",
+   "url": "/common/ui2/panel.png",
+   "width": 396,
+   "height": 470,
+   "mode": "RGBA",
+   "bytes": 2400,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/panel_full.png",
+   "url": "/common/ui2/panel_full.png",
+   "width": 432,
+   "height": 514,
+   "mode": "RGBA",
+   "bytes": 2240,
+   "usedBy": [
+    ".panel"
+   ]
+  },
+  {
+   "file": "src/common/ui2/slot_plate.png",
+   "url": "/common/ui2/slot_plate.png",
+   "width": 400,
+   "height": 64,
+   "mode": "RGBA",
+   "bytes": 435,
+   "usedBy": [
+    ".slot"
+   ]
+  },
+  {
+   "file": "src/common/ui2/title-end.png",
+   "url": "/common/ui2/title-end.png",
+   "width": 260,
+   "height": 52,
+   "mode": "RGBA",
+   "bytes": 7475,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/title-gallery.png",
+   "url": "/common/ui2/title-gallery.png",
+   "width": 260,
+   "height": 52,
+   "mode": "RGBA",
+   "bytes": 6651,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/title-load.png",
+   "url": "/common/ui2/title-load.png",
+   "width": 260,
+   "height": 52,
+   "mode": "RGBA",
+   "bytes": 8187,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/title-settings.png",
+   "url": "/common/ui2/title-settings.png",
+   "width": 260,
+   "height": 52,
+   "mode": "RGBA",
+   "bytes": 6754,
+   "usedBy": []
+  },
+  {
+   "file": "src/common/ui2/title-start.png",
+   "url": "/common/ui2/title-start.png",
+   "width": 260,
+   "height": 52,
+   "mode": "RGBA",
+   "bytes": 7697,
+   "usedBy": []
+  }
+ ],
+ "css": {
+  ".page": "width:432px;height:514px;background-color:#09121e;color:#edf4fc;flex-direction:column;font-family:yakata;",
+  ".title": "position:absolute;left:0px;top:0px;background-color:#09121e;width:432px;height:514px;flex-direction:column;",
+  ".title-art": "position:absolute;left:0px;top:0px;width:432px;height:243px;",
+  ".title-logo": "position:absolute;left:20px;top:72px;width:228px;height:159px;",
+  ".title-list": "position:absolute;left:30px;top:238px;width:372px;flex-direction:column;",
+  ".title-row": "width:340px;height:50px;margin-bottom:4px;background-color:transparent;align-items:center;padding-left:16px;",
+  ".title-action": "width:230px;height:46px;",
+  ".scene": "position:absolute;left:0px;top:0px;width:432px;height:286px;flex-direction:column;",
+  ".art": "height:286px;width:432px;background-color:#000000;",
+  ".background": "position:absolute;left:0px;top:21px;width:432px;height:243px;",
+  ".portrait": "position:absolute;",
+  ".dialogue-panel": "position:absolute;left:0px;top:286px;width:432px;height:228px;flex-direction:column;background-image:url('/common/ui2/box.png');background-size:432px 228px;",
+  ".name-row": "width:432px;height:42px;align-items:center;padding-left:22px;padding-right:22px;",
+  ".speaker": "font-size:22px;color:#aad9ff;width:206px;",
+  ".chapter-name": "font-size:13px;color:#8ca6be;text-align:right;width:176px;",
+  ".reading": "width:388px;height:137px;margin-left:22px;margin-right:22px;",
+  ".prose": "width:388px;line-height:36px;color:#f3f6fb;font-family:yakata;",
+  ".toolbar": "height:52px;width:412px;margin-left:10px;margin-right:10px;justify-content:space-between;align-items:center;",
+  ".tool": "width:118px;height:46px;font-size:19px;color:#e9f2fb;text-align:center;padding-top:12px;background-image:url('/common/ui2/btn_small.png');background-size:118px 46px;",
+  ".panel": "position:absolute;left:0px;top:0px;width:432px;height:514px;padding-left:24px;padding-right:24px;padding-top:26px;flex-direction:column;background-image:url('/common/ui2/panel_full.png');background-size:432px 514px;",
+  ".heading": "font-size:28px;color:#dbeaff;height:41px;padding-left:2px;",
+  ".subheading": "font-size:18px;color:#9dbbd4;height:32px;padding-left:2px;",
+  ".button": "height:52px;width:340px;margin-top:10px;color:#f5f7fb;font-size:23px;text-align:center;align-items:center;padding-top:12px;background-image:url('/common/ui2/btn.png');background-size:340px 52px;",
+  ".primary": "color:#ffffff;background-image:url('/common/ui2/btn.png');",
+  ".muted": "color:#c6d6e6;background-image:url('/common/ui2/btn_press.png');",
+  ".menu-grid": "width:372px;flex-wrap:wrap;height:236px;margin-top:15px;margin-bottom:8px;",
+  ".menu-cell": "width:180px;height:66px;margin-right:6px;margin-bottom:9px;align-items:center;justify-content:center;background-image:url('/common/ui2/btn_small.png');background-size:180px 66px;",
+  ".chapter-list": "height:330px;width:368px;flex-direction:column;",
+  ".chapter-card": "width:368px;height:92px;margin-bottom:10px;padding:10px;flex-direction:column;background-image:url('/common/ui2/chapter_plate.png');background-size:368px 92px;",
+  ".card-name": "font-size:24px;height:34px;color:#eef5fd;",
+  ".slots": "height:326px;width:372px;flex-direction:column;",
+  ".slot": "height:79px;width:372px;margin-bottom:7px;padding-left:13px;padding-top:6px;flex-direction:column;background-image:url('/common/ui2/slot_plate.png');background-size:372px 79px;",
+  ".slot-name": "font-size:22px;height:27px;",
+  ".slot-meta": "font-size:17px;color:#adc3d6;height:23px;",
+  ".slot-preview": "font-size:16px;color:#809cb6;",
+  ".pager": "position:absolute;left:24px;top:450px;width:384px;height:52px;align-items:center;justify-content:space-between;",
+  ".pager-item": "font-size:20px;color:#bdd7ed;padding-top:10px;padding-bottom:10px;",
+  ".gallery-list": "height:326px;width:368px;flex-direction:row;flex-wrap:wrap;padding-top:4px;justify-content:space-between;align-content:flex-start;",
+  ".gallery-card": "width:176px;height:150px;margin-bottom:10px;flex-direction:column;align-items:center;background-image:url('/common/ui2/card_plate.png');background-size:176px 150px;",
+  ".gallery-thumb": "width:168px;height:94px;margin-top:4px;",
+  ".card-meta": "font-size:15px;color:#93aec6;",
+  ".cg-image": "position:absolute;left:0px;top:92px;width:432px;height:243px;",
+  ".cg-label": "position:absolute;left:24px;top:344px;width:384px;font-size:17px;",
+  ".cg-back": "position:absolute;left:46px;top:392px;",
+  ".information": "font-size:23px;line-height:35px;width:372px;margin-top:28px;margin-bottom:20px;",
+  ".compact": "font-size:20px;line-height:29px;margin-top:22px;",
+  ".loading": "position:absolute;left:116px;top:232px;width:200px;height:50px;background-color:#253c53;color:#ffffff;font-size:22px;text-align:center;padding-top:10px;",
+  ".scene-hint": "position:absolute;left:50px;top:115px;width:332px;font-size:20px;color:#8299ac;text-align:center;"
+ },
+ "build": {
+  "regenerateAssets": "python tools/build-ui-skin.py && python tools/build-title-art.py",
+  "buildAndAudit": "python tools/update.py --version <new>",
+  "tests": "node --test tests/*.test.cjs"
+ },
+ "doNotTouch": [
+  "src/common/story/",
+  "src/common/portraits/",
+  "src/common/images/",
+  "src/common/catalog.js",
+  "src/common/engine.js",
+  "converted/",
+  "tests/"
+ ],
+ "forbidden": [
+  "R18 / CG art from 可调用资源/images/",
+  "replacing the body font"
+ ]
+}

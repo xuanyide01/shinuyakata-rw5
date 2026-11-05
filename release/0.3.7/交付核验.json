@@ -1,0 +1,14 @@
+{
+  "result": "passed",
+  "version": "0.3.7",
+  "versionCode": 95,
+  "bytes": 14552289,
+  "sha256": "6dcbbeff2ac17fc8d5ec41f3b5bb419ba673289de6a4077dbba5809af319c8da",
+  "binRpkSame": true,
+  "unitTestsPassed": 15,
+  "nativeExitLifecycleObserved": true,
+  "nativeAutomaticAdvancementToChoiceObserved": true,
+  "packageContainsPreviewTestPictures": false,
+  "githubUploaded": false,
+  "physicalDeviceTested": false
+}
