@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "packageSha256": "6dcbbeff2ac17fc8d5ec41f3b5bb419ba673289de6a4077dbba5809af319c8da",
+  "version": "0.3.7",
+  "versionCode": 95,
+  "files": [
+    {
+      "name": "pages/index/index.js",
+      "sha256": "feba5cd192443b72d4d460324aee6832c5395d544d1c27d34dab5207b9af1347"
+    },
+    {
+      "name": "manifest-watch.json",
+      "sha256": "7f2d1aaa222f4999a4fa35733ebfee4d39873fcc6d88f95d91c72eab2e4ad413"
+    },
+    {
+      "name": "common/watch.otf",
+      "sha256": "cb99b84ad988bde603d27fdbe69a4b475d2f33858798e1c7448e524752f0132d"
+    },
+    {
+      "name": "common/logo.png",
+      "sha256": "b23d436c81e3e6031b064eaf2ee7c429a14ca76fd16c7c2db403e4989d3c187c"
+    },
+    {
+      "name": "common/ui2/title-start.png",
+      "sha256": "3099b26ce918605aaf3b90c98faf224fc33ebbd61061182ba40f121fc8b13a32"
+    },
+    {
+      "name": "common/ui2/title-start-over.png",
+      "sha256": "9814442559724af9decc0006d75b778b74a130f160e5736a3ede4a29a7fbe847"
+    },
+    {
+      "name": "common/ui2/panel_full.png",
+      "sha256": "0ee72e4dbb3133b2dc9a19326558e1162f4fd0698acb5a4092c4b747d7c20bc6"
+    }
+  ]
+}

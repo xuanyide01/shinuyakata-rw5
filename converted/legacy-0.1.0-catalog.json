@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "contentVersion": "0.1.0",
+  "initial": "intro",
+  "demo": "demo",
+  "scenes": [
+    {
+      "id": "intro",
+      "name": "序章·日常与森林（节选）",
+      "file": "intro.txt",
+      "length": 22,
+      "next": "room",
+      "group": "原作非露骨节选"
+    },
+    {
+      "id": "room",
+      "name": "序章·陌生的房间（节选）",
+      "file": "room.txt",
+      "length": 32,
+      "next": null,
+      "group": "原作非露骨节选"
+    },
+    {
+      "id": "demo",
+      "name": "框架演示（独立内容）",
+      "file": "demo.txt",
+      "length": 8,
+      "next": null,
+      "group": "功能演示"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "forest",
+      "name": "森林中的美亚",
+      "variants": [
+        "forest"
+      ]
+    },
+    {
+      "id": "room",
+      "name": "美亚的房间",
+      "variants": [
+        "room",
+        "roomNight"
+      ]
+    }
+  ],
+  "assets": {
+    "forest": "/common/images/forest.jpg",
+    "room": "/common/images/room.jpg",
+    "roomNight": "/common/images/room-night.jpg",
+    "title": "/common/ui/title.jpg",
+    "black": "/common/images/black.jpg",
+    "neutral": "/common/images/mia-neutral.png",
+    "sad": "/common/images/mia-sad.png"
+  }
+}

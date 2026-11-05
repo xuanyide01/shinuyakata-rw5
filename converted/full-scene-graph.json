@@ -1,0 +1,1596 @@
+{
+  "schema": 1,
+  "nodes": [
+    {
+      "storage": "s101.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 227,
+      "nexts": [
+        {
+          "storage": "s102.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s101.txt.scn.json"
+    },
+    {
+      "storage": "s102.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 433,
+      "nexts": [
+        {
+          "storage": "s103-104.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s102.txt.scn.json"
+    },
+    {
+      "storage": "s103-104.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 144,
+      "nexts": [
+        {
+          "storage": "s105-106.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s103-104.txt.scn.json"
+    },
+    {
+      "storage": "s105-106.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 448,
+      "nexts": [
+        {
+          "storage": "s105-106h.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s105-106.txt.scn.json"
+    },
+    {
+      "storage": "s105-106.txt",
+      "sceneIndex": 1,
+      "label": "*return_from_s105-106H",
+      "texts": 25,
+      "nexts": [
+        {
+          "storage": "s105-106h2.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s105-106.txt.scn.json"
+    },
+    {
+      "storage": "s105-106.txt",
+      "sceneIndex": 2,
+      "label": "*return_from_s105-106H2",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": "s201.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s105-106.txt.scn.json"
+    },
+    {
+      "storage": "s105-106h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 196,
+      "nexts": [
+        {
+          "storage": "s105-106.txt",
+          "target": "*return_from_s105-106H",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s105-106h.txt.scn.json"
+    },
+    {
+      "storage": "s105-106h2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 64,
+      "nexts": [
+        {
+          "storage": "s105-106.txt",
+          "target": "*return_from_s105-106H2",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s105-106h2.txt.scn.json"
+    },
+    {
+      "storage": "s201.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 279,
+      "nexts": [
+        {
+          "storage": "s202.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s201.txt.scn.json"
+    },
+    {
+      "storage": "s202.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 346,
+      "nexts": [
+        {
+          "storage": "s203.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s202.txt.scn.json"
+    },
+    {
+      "storage": "s203.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 336,
+      "nexts": [
+        {
+          "storage": "s203h.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s203.txt.scn.json"
+    },
+    {
+      "storage": "s203.txt",
+      "sceneIndex": 1,
+      "label": "*return_from_s203H",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": "s204.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s203.txt.scn.json"
+    },
+    {
+      "storage": "s203h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 145,
+      "nexts": [
+        {
+          "storage": "s203.txt",
+          "target": "*return_from_s203H",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s203h.txt.scn.json"
+    },
+    {
+      "storage": "s204.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 332,
+      "nexts": [
+        {
+          "storage": "s204_1h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s204.txt.scn.json"
+    },
+    {
+      "storage": "s204_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 130,
+      "nexts": [
+        {
+          "start": "true",
+          "storage": "s205.txt",
+          "target": "",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s204_1h.txt.scn.json"
+    },
+    {
+      "storage": "s205.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 341,
+      "nexts": [
+        {
+          "storage": "s205_1h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s205.txt.scn.json"
+    },
+    {
+      "storage": "s205_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 156,
+      "nexts": [
+        {
+          "storage": "s206.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s205_1h.txt.scn.json"
+    },
+    {
+      "storage": "s206.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 257,
+      "nexts": [
+        {
+          "storage": "s206_1h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s206.txt.scn.json"
+    },
+    {
+      "storage": "s206_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 101,
+      "nexts": [
+        {
+          "storage": "s301.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s206_1h.txt.scn.json"
+    },
+    {
+      "storage": "s301.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 968,
+      "nexts": [
+        {
+          "storage": "s302.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s301.txt.scn.json"
+    },
+    {
+      "storage": "s302.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 201,
+      "nexts": [
+        {
+          "storage": "s303.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s302.txt.scn.json"
+    },
+    {
+      "storage": "s303.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 211,
+      "nexts": [
+        {
+          "storage": "s303.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303.txt.scn.json"
+    },
+    {
+      "storage": "s303.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s303_1.txt",
+          "target": "*start",
+          "text": "眠っている男を殺害する"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s303_2.txt",
+          "target": "*start",
+          "text": "これでは殺せないと夏花を説得する"
+        }
+      ],
+      "source": "json/patch/s303.txt.scn.json"
+    },
+    {
+      "storage": "s303.txt",
+      "sceneIndex": 2,
+      "label": "*dummy1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [],
+      "source": "json/patch/s303.txt.scn.json"
+    },
+    {
+      "storage": "s303_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 95,
+      "nexts": [
+        {
+          "storage": "s303_1.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_1.txt.scn.json"
+    },
+    {
+      "storage": "s303_1.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s303_1_1h.txt",
+          "target": "*start",
+          "text": "みあを捜す"
+        },
+        {
+          "exp": "f.spot_s303_1_2H_through = true",
+          "render": 1,
+          "selidx": 1,
+          "storage": "s303_1_2h.txt",
+          "target": "*start",
+          "text": "夏花とともに逃げる"
+        }
+      ],
+      "source": "json/patch/s303_1.txt.scn.json"
+    },
+    {
+      "storage": "s303_1_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 209,
+      "nexts": [
+        {
+          "storage": "s303_1_1h.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_1_1h.txt.scn.json"
+    },
+    {
+      "storage": "s303_1_1h.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 44,
+      "nexts": [
+        {
+          "storage": "s304.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_1_1h.txt.scn.json"
+    },
+    {
+      "storage": "s303_1_2h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 160,
+      "nexts": [
+        {
+          "storage": "s303_1_2h.txt",
+          "target": "*replay_H08",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_1_2h.txt.scn.json"
+    },
+    {
+      "storage": "s303_1_2h.txt",
+      "sceneIndex": 1,
+      "label": "*replay_H08",
+      "texts": 329,
+      "nexts": [
+        {
+          "storage": "s304.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_1_2h.txt.scn.json"
+    },
+    {
+      "storage": "s303_2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 96,
+      "nexts": [
+        {
+          "storage": "s303_2_1h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_2.txt.scn.json"
+    },
+    {
+      "storage": "s303_2_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 148,
+      "nexts": [
+        {
+          "storage": "s303_2_2h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_2_1h.txt.scn.json"
+    },
+    {
+      "storage": "s303_2_2h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 225,
+      "nexts": [
+        {
+          "storage": "s303_2_3h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_2_2h.txt.scn.json"
+    },
+    {
+      "storage": "s303_2_3h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 147,
+      "nexts": [
+        {
+          "storage": "s304.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s303_2_3h.txt.scn.json"
+    },
+    {
+      "storage": "s304.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 515,
+      "nexts": [
+        {
+          "storage": "s304.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s304.txt.scn.json"
+    },
+    {
+      "storage": "s304.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s304_1.txt",
+          "target": "*start",
+          "text": "目を閉じて誰かを選ぶ"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s304_2h.txt",
+          "target": "*start",
+          "text": "自分を食べればいいと言う"
+        }
+      ],
+      "source": "json/patch/s304.txt.scn.json"
+    },
+    {
+      "storage": "s304_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 179,
+      "nexts": [
+        {
+          "storage": "s305h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s304_1.txt.scn.json"
+    },
+    {
+      "storage": "s304_2h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 224,
+      "nexts": [
+        {
+          "storage": "s304_3.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s304_2h.txt.scn.json"
+    },
+    {
+      "storage": "s304_3.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 46,
+      "nexts": [
+        {
+          "storage": "s305h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s304_3.txt.scn.json"
+    },
+    {
+      "storage": "s305h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 248,
+      "nexts": [
+        {
+          "storage": "s401-402.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s305h.txt.scn.json"
+    },
+    {
+      "storage": "s401-402.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 425,
+      "nexts": [
+        {
+          "storage": "s403-404.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s401-402.txt.scn.json"
+    },
+    {
+      "storage": "s403-404.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 546,
+      "nexts": [
+        {
+          "storage": "s403-404h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s403-404.txt.scn.json"
+    },
+    {
+      "storage": "s403-404h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 283,
+      "nexts": [
+        {
+          "storage": "s405.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s403-404h.txt.scn.json"
+    },
+    {
+      "storage": "s405.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 302,
+      "nexts": [
+        {
+          "storage": "s405.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s405.txt.scn.json"
+    },
+    {
+      "storage": "s405.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "exp": "f.mia_point += 1",
+          "render": 1,
+          "selidx": 0,
+          "storage": "s405_1h.txt",
+          "target": "*start",
+          "text": "心々乃を止める"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s405_2h.txt",
+          "target": "*start",
+          "text": "愛夢の血を手に入れる"
+        }
+      ],
+      "source": "json/patch/s405.txt.scn.json"
+    },
+    {
+      "storage": "s405_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 352,
+      "nexts": [
+        {
+          "storage": "s405_1h.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s405_1h.txt.scn.json"
+    },
+    {
+      "storage": "s405_1h.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 158,
+      "nexts": [
+        {
+          "storage": "s405_1h.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s405_1h.txt.scn.json"
+    },
+    {
+      "storage": "s405_1h.txt",
+      "sceneIndex": 2,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "exp": "f.spot_s406_1_1H_through = true",
+          "render": 1,
+          "selidx": 0,
+          "storage": "s406_1_1h.txt",
+          "target": "*start",
+          "text": "この部屋に残る"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s406_1_2.txt",
+          "target": "*start",
+          "text": "厨房に隠れる"
+        }
+      ],
+      "source": "json/patch/s405_1h.txt.scn.json"
+    },
+    {
+      "storage": "s405_2h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 222,
+      "nexts": [
+        {
+          "storage": "s501.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s405_2h.txt.scn.json"
+    },
+    {
+      "storage": "s406_1_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 297,
+      "nexts": [
+        {
+          "storage": "s406_1_1h.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s406_1_1h.txt.scn.json"
+    },
+    {
+      "storage": "s406_1_1h.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 19,
+      "nexts": [
+        {
+          "storage": "s501.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s406_1_1h.txt.scn.json"
+    },
+    {
+      "storage": "s406_1_2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 105,
+      "nexts": [
+        {
+          "storage": "s406_1_2h.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s406_1_2.txt.scn.json"
+    },
+    {
+      "storage": "s406_1_2h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 252,
+      "nexts": [
+        {
+          "storage": "s406_1_3h.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s406_1_2h.txt.scn.json"
+    },
+    {
+      "storage": "s406_1_3h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 219,
+      "nexts": [
+        {
+          "storage": "s406_1_3h.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s406_1_3h.txt.scn.json"
+    },
+    {
+      "storage": "s406_1_3h.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 149,
+      "nexts": [
+        {
+          "storage": "s501.txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/patch/s406_1_3h.txt.scn.json"
+    },
+    {
+      "storage": "s501.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 585,
+      "nexts": [
+        {
+          "storage": "s501h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s501.txt.scn.json"
+    },
+    {
+      "storage": "s501h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 92,
+      "nexts": [
+        {
+          "storage": "s501h.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s501h.txt.scn.json"
+    },
+    {
+      "storage": "s501h.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 68,
+      "nexts": [
+        {
+          "storage": "s501h2.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s501h.txt.scn.json"
+    },
+    {
+      "storage": "s501h2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 359,
+      "nexts": [
+        {
+          "storage": "s511.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s501h2.txt.scn.json"
+    },
+    {
+      "storage": "s511.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 47,
+      "nexts": [
+        {
+          "storage": "s512.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s511.txt.scn.json"
+    },
+    {
+      "storage": "s512.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 458,
+      "nexts": [
+        {
+          "storage": "s512.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512.txt.scn.json"
+    },
+    {
+      "storage": "s512.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s512_1.txt",
+          "target": "*start",
+          "text": "メイドを信用する"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s512_2.txt",
+          "target": "*start",
+          "text": "自分達だけで実行する"
+        },
+        {
+          "render": 1,
+          "selidx": 2,
+          "storage": "s512_3.txt",
+          "target": "*start",
+          "text": "客人の女の話に乗る"
+        }
+      ],
+      "source": "json/data/scn/s512.txt.scn.json"
+    },
+    {
+      "storage": "s512_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 60,
+      "nexts": [
+        {
+          "eval": "f.mia_point == 1",
+          "storage": "s512_1_1.txt",
+          "target": "*start",
+          "type": 0
+        },
+        {
+          "storage": "s512_1_2.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_1.txt.scn.json"
+    },
+    {
+      "storage": "s512_1_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": "s512_1_1.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_1_1.txt.scn.json"
+    },
+    {
+      "storage": "s512_1_1.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 18,
+      "nexts": [
+        {
+          "storage": "s512_1_3.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_1_1.txt.scn.json"
+    },
+    {
+      "storage": "s512_1_2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 17,
+      "nexts": [
+        {
+          "storage": "s512_1_3.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_1_2.txt.scn.json"
+    },
+    {
+      "storage": "s512_1_3.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 21,
+      "nexts": [
+        {
+          "storage": "s512_1_3.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_1_3.txt.scn.json"
+    },
+    {
+      "storage": "s512_1_3.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s512_2.txt",
+          "target": "*start",
+          "text": "自分達だけで実行する"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s512_3.txt",
+          "target": "*start",
+          "text": "客人の女の話に乗る"
+        }
+      ],
+      "source": "json/data/scn/s512_1_3.txt.scn.json"
+    },
+    {
+      "storage": "s512_2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 31,
+      "nexts": [
+        {
+          "storage": "s512_2h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_2.txt.scn.json"
+    },
+    {
+      "storage": "s512_2h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 190,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_2h.txt.scn.json"
+    },
+    {
+      "storage": "s512_3.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 356,
+      "nexts": [
+        {
+          "eval": "f.spot_s512_1_1_through",
+          "storage": "s512_3_1.txt",
+          "target": "*start",
+          "type": 0
+        },
+        {
+          "storage": "s512_3_2h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_3.txt.scn.json"
+    },
+    {
+      "storage": "s512_3_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": "s512_3_1.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_3_1.txt.scn.json"
+    },
+    {
+      "storage": "s512_3_1.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 213,
+      "nexts": [
+        {
+          "storage": "s601.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_3_1.txt.scn.json"
+    },
+    {
+      "storage": "s512_3_2h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 346,
+      "nexts": [
+        {
+          "storage": "s512_3_2h.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_3_2h.txt.scn.json"
+    },
+    {
+      "storage": "s512_3_2h.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 55,
+      "nexts": [
+        {
+          "storage": "s512_3_3h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_3_2h.txt.scn.json"
+    },
+    {
+      "storage": "s512_3_3h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 113,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s512_3_3h.txt.scn.json"
+    },
+    {
+      "storage": "s601.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 163,
+      "nexts": [
+        {
+          "storage": "s601.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601.txt.scn.json"
+    },
+    {
+      "storage": "s601.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s601_1.txt",
+          "target": "*start",
+          "text": "この場で大人しく待つ"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s601_2.txt",
+          "target": "*start",
+          "text": "何らか行動を起こす"
+        }
+      ],
+      "source": "json/data/scn/s601.txt.scn.json"
+    },
+    {
+      "storage": "s601_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 124,
+      "nexts": [
+        {
+          "storage": "s601_1.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_1.txt.scn.json"
+    },
+    {
+      "storage": "s601_1.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_1.txt.scn.json"
+    },
+    {
+      "storage": "s601_2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 5,
+      "nexts": [
+        {
+          "storage": "s601_2.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_2.txt.scn.json"
+    },
+    {
+      "storage": "s601_2.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s601_2_1h.txt",
+          "target": "*start",
+          "text": "愛夢と話す"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s601_2_2.txt",
+          "target": "*start",
+          "text": "館の男を殺す"
+        }
+      ],
+      "source": "json/data/scn/s601_2.txt.scn.json"
+    },
+    {
+      "storage": "s601_2.txt",
+      "sceneIndex": 2,
+      "label": "*dummy1",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": ".txt",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_2.txt.scn.json"
+    },
+    {
+      "storage": "s601_2_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 454,
+      "nexts": [
+        {
+          "storage": "s601_2_1h.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_2_1h.txt.scn.json"
+    },
+    {
+      "storage": "s601_2_1h.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 83,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_2_1h.txt.scn.json"
+    },
+    {
+      "storage": "s601_2_2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 55,
+      "nexts": [
+        {
+          "storage": "s601_2_2.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_2_2.txt.scn.json"
+    },
+    {
+      "storage": "s601_2_2.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s601_2_3h.txt",
+          "target": "*start",
+          "text": "食料貯蔵庫へと向かう"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s601_2_4.txt",
+          "target": "*start",
+          "text": "愛夢の部屋を探す"
+        }
+      ],
+      "source": "json/data/scn/s601_2_2.txt.scn.json"
+    },
+    {
+      "storage": "s601_2_3h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 318,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_2_3h.txt.scn.json"
+    },
+    {
+      "storage": "s601_2_4.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 218,
+      "nexts": [
+        {
+          "storage": "s602.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s601_2_4.txt.scn.json"
+    },
+    {
+      "storage": "s602.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 159,
+      "nexts": [
+        {
+          "storage": "s602.txt",
+          "target": "*dummyselect1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602.txt.scn.json"
+    },
+    {
+      "storage": "s602.txt",
+      "sceneIndex": 1,
+      "label": "*dummyselect1",
+      "texts": 0,
+      "nexts": [],
+      "selects": [
+        {
+          "render": 1,
+          "selidx": 0,
+          "storage": "s602_1.txt",
+          "target": "*start",
+          "text": "みあの指示に従う"
+        },
+        {
+          "render": 1,
+          "selidx": 1,
+          "storage": "s602_2.txt",
+          "target": "*start",
+          "text": "何か協力できることを探す"
+        }
+      ],
+      "source": "json/data/scn/s602.txt.scn.json"
+    },
+    {
+      "storage": "s602_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 267,
+      "nexts": [
+        {
+          "storage": "s602_1.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_1.txt.scn.json"
+    },
+    {
+      "storage": "s602_1.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 0,
+      "nexts": [
+        {
+          "eval": "f.spot_s303_1_2H_through && f.spot_s406_1_1H_through && f.spot_s512_1_1_through",
+          "storage": "s602_1_1.txt",
+          "type": 0
+        },
+        {
+          "storage": "s602_1.txt",
+          "target": "*dummy2",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_1.txt.scn.json"
+    },
+    {
+      "storage": "s602_1.txt",
+      "sceneIndex": 2,
+      "label": "*dummy2",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_1.txt.scn.json"
+    },
+    {
+      "storage": "s602_1_1.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 202,
+      "nexts": [
+        {
+          "storage": "s602_1h.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_1_1.txt.scn.json"
+    },
+    {
+      "storage": "s602_1h.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 401,
+      "nexts": [
+        {
+          "storage": "s602_1h2.txt",
+          "target": "*start",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_1h.txt.scn.json"
+    },
+    {
+      "storage": "s602_1h2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 221,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_1h2.txt.scn.json"
+    },
+    {
+      "storage": "s602_2.txt",
+      "sceneIndex": 0,
+      "label": "*start",
+      "texts": 361,
+      "nexts": [
+        {
+          "storage": "s602_2.txt",
+          "target": "*dummy1",
+          "type": 0
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_2.txt.scn.json"
+    },
+    {
+      "storage": "s602_2.txt",
+      "sceneIndex": 1,
+      "label": "*dummy1",
+      "texts": 0,
+      "nexts": [
+        {
+          "storage": "start.ks",
+          "target": "*gameend_title",
+          "type": 1
+        }
+      ],
+      "selects": [],
+      "source": "json/data/scn/s602_2.txt.scn.json"
+    }
+  ]
+}

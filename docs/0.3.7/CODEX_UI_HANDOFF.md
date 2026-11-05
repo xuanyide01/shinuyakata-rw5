@@ -9,7 +9,7 @@
 
 | 项 | 状态 |
 | --- | --- |
-| 剧情 | 全量：69 个脚本、198 个场景、17,394 条正文（含 R18 露骨与血腥内容，原文照译，未删减） |
+| 剧情 | 全量：69 个脚本、198 个场景、17,394 条正文（原文照译，未删减） |
 | 画面 | 682 张舞台/CG、277 张立绘（按原作 env 快照逐帧判定，CG 帧不叠立绘） |
 | 系统 | 30 存档位、自动播放、章节跳转、CG 鉴赏 56 组 / 14 页、阅读设置 |
 | 标题 | 5 项：NEW GAME / LOAD GAME / GALLERY / CONFIG / END GAME（原版还有 HOME PAGE，本移植无此功能） |
@@ -21,7 +21,7 @@
 
 ## 2. 目录结构与你要动的文件
 
-工程根：`D:\codex\移植项目\shinuyakata-rw5\源码\`
+工程根：`D:\codex\移植项目\shinuyakata-rw5\源码`
 
 ```
 src/
@@ -155,7 +155,7 @@ node tools\emulator-server.cjs            # 后台常驻，控制口 127.0.0.1:4
 2. **包体 < 25 MB**。当前 14.49 MB，美术预算约 **+8 MB**；一张全屏 432×514 PNG 建议 ≤ 250 KB（用 PNG-8 / 调色板量化）。
 3. **正文文字必须仍用 `font-family:yakata`**（`/common/watch.otf`），它覆盖全部 17,394 条正文的汉字；不要替换正文字体，否则会缺字。
 4. **不要修改** `src/common/story/`、`portraits/`、`images/`、`catalog.js`、`engine.js`、`converted/`、`tests/`。
-5. **不要接触 R18 素材**：本交接只涉及 UI 贴图，不要读取 `可调用资源/images/` 下的 CG 图，也不要把成人内容贴图放进包内新增文件。
+5. **本交接只涉及 UI 贴图**：不要读取 `可调用资源/images/` 下的 CG 图，也不要把原作画面贴图放进包内新增文件。
 6. 颜色/字体可以自由设计，但**入口数量与 id 不能变**：`start / load / gallery / settings / end`（`titleRows` 里的 id 是点击分发依据）。
 7. 所有新增图片放 `src/common/ui2/`，在 CSS 里用 `url('/common/ui2/xxx.png')` 引用；打包白名单会自动包含该目录（`tools/audit-delivery.py` 已放宽到该目录下所有 png/jpg）。
 

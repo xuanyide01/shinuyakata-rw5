@@ -1,0 +1,23 @@
+✔ chapter skip stops at choice, both branches join and previous restores variables (5.6791ms)
+✔ thirty distinct save keys and strict invalid-save checks (1.7599ms)
+✔ stable operation IDs survive insertion before saved position (1.8894ms)
+✔ first chapter chains into the next page and every scene resolves (1.9332ms)
+✔ jump cycle fails within a fixed bound; autoplay has ordered speeds and long-text allowance (1.4776ms)
+✔ autoplay pauses at a choice, resumes after picking, and never keeps timers in menus/background (5.96ms)
+✔ delayed file completion while hidden is rendered after returning; destroy invalidates callbacks (4.3022ms)
+✔ dragging cannot advance; first tap completes typing and second advances (2.3093ms)
+✔ all 11 original choice groups preserve option order and destination labels (0.7927ms)
+✔ explore every reachable option/state combination without reaching unresolved placeholders (56.3658ms)
+✔ three-flag conjunction and trust counter are required for their conditional destinations (0.1843ms)
+✔ old omitted-segment saves remap to inserted text by original source index (0.1508ms)
+✔ menu autoplay and speed change immediately, remain paused in menu and arm on resume (2.9959ms)
+✔ END GAME exits through app lifecycle after cancelling timers and stale callbacks (1.1572ms)
+✔ exit respects in-progress storage writes (1.5604ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 180.5456

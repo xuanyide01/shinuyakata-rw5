@@ -1,0 +1,701 @@
+INFO    | Android emulator version 32.1.15.0 (build_id 20241202) (CL:N/A)
+INFO    | Found systemPath D:\codex\2026-11-02\vela-sdk\system-images\vela-watch-5.0
+WARNING | encryption is off
+WARNING | Unknown Image type 3
+WARNING | Unknown Image type 5
+WARNING | Unknown Image type 4
+WARNING | Unknown Image type 1
+INFO    | Crashreporting disabled, not reporting crashes.
+INFO    | Duplicate loglines will be removed, if you wish to see each indiviudal line launch with the -log-nofilter flag.
+INFO    | IPv4 server found: 198.18.0.2
+Warning: Allowing host microphone input.
+INFO    | added library vulkan-1.dll
+WARNING | *** No gRPC protection active, consider launching with the -grpc-use-jwt flag.***
+INFO    | Started GRPC server at [::]:8562, security: Insecure, auth: none
+INFO    | Advertising in: C:\Users\HP\AppData\Local\Packages\sandbox.{f98f0a6d-634f-4e69-b2a3-e0a7b9acd470}\AC\Temp\avd\running\pid_4008.ini
+INFO    | Setting display: 0 configuration to: 432x514, dpi: 320x320 
+[    0.188000] [ 3] [ ALERT] [ap] coredump_initialize: /dev/virtblk2 Coredump device not found -2
+[    0.197200] [ 7] [  INFO] [ap] NuttX  12.3.0 463897d2c31 Jul 16 2025 15:33:48 arm armv7a
+kvdbd [9:100]
+dfxdaemon [10:100]
+servicemanager [11:100]
+adbd [12:100]
+mediad [13:245]
+bluetoothd [14:100]
+nsh: mount: mount failed: 20
+nsh: mount: mount failed: 20
+nsh: mount: mount failed: 19
+rild [15:100]
+dbusdaemon [19:100]
+systemd [20:100]
+ofonod [21:100]
+qemuprop [22:100]
+vibratord [23:100]
+[    0.207500] [13] [  INFO] [ap] media_graph_load, loadgraph from file: /etc/media/graph.conf
+[    0.219500] [13] [  WARN] [ap]  /dev/video path is no exist!
+[    0.224900] [13] [  INFO] [ap] media_graph_load, loadgraph succeed
+[    0.231400] [10] [ DEBUG] [ap] [DFX] [/frameworks/system/dfx/dfx_uploader.c:100]dfx_uploader_find_pri network pri 0
+[    0.247800] [14] [  INFO] [ap] bluetoothd main 34
+[    0.248500] [15] [  INFO] [ap] [AT_RIL] RIL_Init
+[    0.248600] [15] [  INFO] [ap] [RIL_CPP] RIL_register: RIL version 15
+[    0.248800] [15] [  INFO] [ap] [RIL_CPP] s_registerCalled flag set, 0
+[    0.248900] [15] [  INFO] [ap] [RIL_CPP] RIL_register s_starte 0
+[    0.258000] [21] [  INFO] [ap] oFono version 1.34
+[    0.260900] [21] [ ERROR] [ap] Unable to hop onto D-Bus: Failed to connect to socket /var/run/dbus/system_bus_socket: Unknown error 2
+connected to "boot-properties" qemud service.
+key = ro.product.device.screenshape | value = rect
+[    0.264000] [25] [  INFO] [ap] [AT_RIL] opening qemu_modem_port 1641!
+[    0.274300] [19] [  WARN] [ap] listening on unix socket /var/run/dbus/system_bus_socket abstract=0
+[    0.274600] [19] [  WARN] [ap] Successfully listen to unix socket /var/run/dbus/system_bus_socket
+[    0.280300] [26] [  WARN] [ap] [AT_RIL] Modem is not alive
+[    0.280400] [26] [  WARN] [ap] [AT_RIL] Modem is not alive
+[    0.280500] [26] [  WARN] [ap] [AT_RIL] Modem is not alive
+[    0.280600] [26] [  WARN] [ap] [AT_RIL] Modem is not alive
+[    0.282100] [15] [ ERROR] [ap] [RIL_CPP] RIL: no valid fd for URC channel
+[    0.282300] [15] [ ERROR] [ap] [RIL_CPP] RIL: no valid fd for URC channel
+[    0.284800] [14] [  INFO] [ap] /data/misc/bt folder create: 0
+[    0.285800] [10] [ ERROR] [ap] [DFX] [/frameworks/system/dfx/utils/dfx_utils.c:426]open /data/etc/device.info
+[    0.292200] [13] [  INFO] [ap] pfw domain:SpeakerDomain switch to conf:music
+[    0.292500] [13] [  INFO] [ap] process adevsink@pcm0p set_parameter set_scenario=music
+[    0.292800] [13] [  INFO] [ap] process amix@MixSpeaker weights 1 1 1 1 1 1 1 0
+[    0.293100] [13] [  INFO] [ap] pfw domain:SCOrxDomain switch to conf:disable
+[    0.293400] [13] [  INFO] [ap] process astreamselect@SelSCO map -1
+[    0.293800] [13] [  INFO] [ap] pfw domain:PlayDomain switch to conf:speaker
+[    0.294000] [13] [  INFO] [ap] process astreamselect@SelPlay0 map 0 -1
+[    0.294200] [13] [  INFO] [ap] astreamselect@SelPlay0 set graph reconfig
+[    0.296400] [13] [  INFO] [ap] process astreamselect@SelPlay1 map 0 -1
+[    0.296500] [13] [  INFO] [ap] astreamselect@SelPlay1 set graph reconfig
+[    0.298100] [13] [  INFO] [ap] process astreamselect@SelPlay2 map 0 -1
+[    0.298200] [13] [  INFO] [ap] astreamselect@SelPlay2 set graph reconfig
+[    0.299700] [13] [  INFO] [ap] process astreamselect@SelPlay3 map 0 -1
+[    0.299800] [13] [  INFO] [ap] astreamselect@SelPlay3 set graph reconfig
+[    0.301300] [13] [  INFO] [ap] pfw domain:AlarmDomain switch to conf:speaker
+[    0.301600] [13] [  INFO] [ap] process astreamselect@SelAlarm0 map 0 -1
+[    0.301800] [13] [  INFO] [ap] astreamselect@SelAlarm0 set graph reconfig
+[    0.303400] [13] [  INFO] [ap] pfw domain:SCOtxDomain switch to conf:default
+[    0.303700] [13] [  INFO] [ap] process amoviesink_async@SCOtx stop _
+[    0.303800] [13] [  INFO] [ap] moviesink_process_command filter amoviesink_async@SCOtx stop. pos 0
+[    0.304000] [13] [  INFO] [ap] pfw domain:MicDomain switch to conf:capture
+[    0.304100] [13] [  INFO] [ap] process adevsrc@pcm0c start _
+[    0.304400] [13] [  INFO] [ap] adevsrc@pcm0c set graph reconfig
+[    0.306100] [13] [  INFO] [ap] process astreamselect@SelCap map 0 0 -1
+[    0.306300] [13] [  INFO] [ap] astreamselect@SelCap set graph reconfig
+[    0.308000] [13] [  INFO] [ap] pfw domain:IncallVolumeDomain switch to conf:X
+[    0.308200] [13] [  INFO] [ap] pfw domain:TTSVolumeDomain switch to conf:index-5
+[    0.308500] [13] [  INFO] [ap] process volume@VolSCO volume 10^(-4*(10-5)/20)
+[    0.309200] [13] [  INFO] [ap] pfw domain:RingVolumeDomain switch to conf:index-5
+[    0.309300] [13] [  INFO] [ap] process volume@VolRing0 volume 10^(-4*(10-5)/20)
+[    0.309600] [13] [  INFO] [ap] pfw domain:MediaVolumeDomain switch to conf:index-5
+[    0.309800] [13] [  INFO] [ap] process volume@VolMedia0 volume 10^(-4*(10-5)/20)
+[    0.309900] [13] [  INFO] [ap] process volume@VolMedia1 volume 10^(-4*(10-5)/20)
+[    0.310100] [13] [  INFO] [ap] process volume@VolMedia2 volume 10^(-4*(10-5)/20)
+[    0.310200] [13] [  INFO] [ap] process volume@VolMedia2 volume 10^(-4*(10-5)/20)
+[    0.310400] [13] [  INFO] [ap] pfw domain:AlarmVolumeDomain switch to conf:index-5
+[    0.310600] [13] [  INFO] [ap] process volume@VolAlarm0 volume 10^(-4*(10-5)/20)
+key = ro.product.device.devicetype | value = watch
+key = ro.opengles.version | value = 131072
+[    0.313200] [23] [ ERROR] [ap] [vibratord] get vibrator calib failed, errno = 2
+[    0.313800] [23] [ ERROR] [ap] [vibratord] socket failure 1: 97
+telnetd [27:100]
+
+NuttShell (NSH) NuttX-12.3.0
+goldfish-armv7a-ap> [K[    0.316500] [20] [  CRIT] [ap] [LVGL] [User]	(0.316, +316)	 check_stack_size: tid: 20, Stack size : 16288 lv_nuttx_entry.c:268
+[    0.316800] [20] [ ERROR] [ap] [LVGL] [Error]	(0.316, +0)	 check_stack_size: Stack size is too small. Please increase it to 32768 bytes or more. lv_nuttx_entry.c:271
+[    0.321900] [20] [  CRIT] [ap] [LVGL] [User]	(0.321, +5)	 lv_nuttx_fbdev_set_file: The framebuffer device was opened successfully lv_nuttx_fbdev.c:104
+[    0.322100] [20] [  CRIT] [ap] [LVGL] [User]	(0.322, +1)	 lv_nuttx_fbdev_set_file: VideoInfo: lv_nuttx_fbdev.c:112
+[    0.322300] [20] [  CRIT] [ap] [LVGL] [User]	(0.322, +0)	 lv_nuttx_fbdev_set_file:       fmt: 11 lv_nuttx_fbdev.c:113
+[    0.322500] [20] [  CRIT] [ap] [LVGL] [User]	(0.322, +0)	 lv_nuttx_fbdev_set_file:      xres: 432 lv_nuttx_fbdev.c:114
+[    0.322700] [20] [  CRIT] [ap] [LVGL] [User]	(0.322, +0)	 lv_nuttx_fbdev_set_file:      yres: 514 lv_nuttx_fbdev.c:115
+[    0.323000] [20] [  CRIT] [ap] [LVGL] [User]	(0.323, +1)	 lv_nuttx_fbdev_set_file:   nplanes: 1 lv_nuttx_fbdev.c:116
+[    0.323300] [20] [  CRIT] [ap] [LVGL] [User]	(0.323, +0)	 fbdev_get_pinfo: PlaneInfo (plane 0): lv_nuttx_fbdev.c:274
+[    0.323400] [20] [  CRIT] [ap] [LVGL] [User]	(0.323, +0)	 fbdev_get_pinfo:     mem: 0x4045d010 lv_nuttx_fbdev.c:275
+[    0.323600] [20] [  CRIT] [ap] [LVGL] [User]	(0.323, +0)	 fbdev_get_pinfo:     fblen: 888192 lv_nuttx_fbdev.c:276
+[    0.323800] [20] [  CRIT] [ap] [LVGL] [User]	(0.323, +0)	 fbdev_get_pinfo:    stride: 864 lv_nuttx_fbdev.c:277
+[    0.323900] [20] [  CRIT] [ap] [LVGL] [User]	(0.323, +0)	 fbdev_get_pinfo:   display: 0 lv_nuttx_fbdev.c:278
+[    0.324100] [20] [  CRIT] [ap] [LVGL] [User]	(0.324, +1)	 fbdev_get_pinfo:       bpp: 16 lv_nuttx_fbdev.c:279
+[    0.324400] [20] [  CRIT] [ap] [LVGL] [User]	(0.324, +0)	 fbdev_get_pinfo: PlaneInfo (plane 0): lv_nuttx_fbdev.c:274
+[    0.324600] [20] [  CRIT] [ap] [LVGL] [User]	(0.324, +0)	 fbdev_get_pinfo:     mem: 0x4045d010 lv_nuttx_fbdev.c:275
+[    0.324700] [20] [  CRIT] [ap] [LVGL] [User]	(0.324, +0)	 fbdev_get_pinfo:     fblen: 888192 lv_nuttx_fbdev.c:276
+[    0.324900] [20] [  CRIT] [ap] [LVGL] [User]	(0.324, +0)	 fbdev_get_pinfo:    stride: 864 lv_nuttx_fbdev.c:277
+[    0.325000] [20] [  CRIT] [ap] [LVGL] [User]	(0.325, +1)	 fbdev_get_pinfo:   display: 0 lv_nuttx_fbdev.c:278
+[    0.325200] [20] [  CRIT] [ap] [LVGL] [User]	(0.325, +0)	 fbdev_get_pinfo:       bpp: 16 lv_nuttx_fbdev.c:279
+[    0.325300] [20] [  CRIT] [ap] [LVGL] [User]	(0.325, +0)	 fbdev_init_mem2: Use consecutive mem2 = 0x404c96d0, yoffset = 514 lv_nuttx_fbdev.c:325
+[    0.326100] [20] [  CRIT] [ap] [LVGL] [User]	(0.326, +1)	 lv_nuttx_fbdev_set_file: Resolution is set to 432x514 at 130dpi lv_nuttx_fbdev.c:158
+[    0.326300] [20] [  CRIT] [ap] [LVGL] [User]	(0.326, +0)	 lv_nuttx_touchscreen_create: touchscreen /dev/input0 opening lv_nuttx_touchscreen.c:78
+[    0.326700] [20] [  CRIT] [ap] [LVGL] [User]	(0.326, +0)	 lv_nuttx_touchscreen_create: touchscreen /dev/input0 open success, maxpoint 1 lv_nuttx_touchscreen.c:97
+[    0.327100] [20] [  CRIT] [ap] [LVGL] [User]	(0.327, +1)	 lv_nuttx_touchscreen_create: touchscreen /dev/utouch opening lv_nuttx_touchscreen.c:78
+[    0.327300] [20] [  CRIT] [ap] [LVGL] [User]	(0.327, +0)	 lv_nuttx_touchscreen_create: touchscreen /dev/utouch open success, maxpoint 1 lv_nuttx_touchscreen.c:97
+[    0.327700] [20] [  CRIT] [ap] [LVGL] [User]	(0.327, +0)	 lv_nuttx_uv_fb_init: lvgl fb loop start OK lv_nuttx_libuv.c:384
+[    0.328000] [20] [  CRIT] [ap] [LVGL] [User]	(0.328, +1)	 lv_nuttx_uv_input_init: lvgl input loop start OK lv_nuttx_libuv.c:450
+[    0.328200] [20] [  CRIT] [ap] [LVGL] [User]	(0.328, +0)	 lv_nuttx_uv_uinput_init: lvgl uinput loop start OK lv_nuttx_libuv.c:511
+[    0.328500] [20] [  CRIT] [ap] [LVGL] [User]	(0.328, +0)	 lv_nuttx_uv_vsync_init: lvgl vsync start OK lv_nuttx_libuv.c:177
+key = qemu.sf.fake_camera | value = none
+[    0.338900] [10] [ ERROR] [ap] [DFX] [/frameworks/system/dfx/utils/dfx_utils.c:1210]get did failed!!
+
+key = dalvik.vm.heapsize | value = 32m
+key = ro.config.low_ram | value = true
+key = qemu.hw.mainkeys | value = 0
+key = qemu.sf.lcd_density | value = 320
+[    0.347300] [14] [ ALERT] [ap] Framework log level: 7, Stack:0, mask:00000000, Snoop: 0
+[    0.347700] [14] [ DEBUG] [ap] [197][storage]: bt_storage_init successed
+[    0.347900] [14] [ DEBUG] [ap] [129][service_manager]: A2DP-Sink service register success
+[    0.348000] [14] [ DEBUG] [ap] [129][service_manager]: A2DP-Src service register success
+[    0.348200] [14] [ DEBUG] [ap] [129][service_manager]: AVRCP-TG service register success
+[    0.348300] [14] [ DEBUG] [ap] [129][service_manager]: AVRCP-CT service register success
+[    0.348500] [14] [ DEBUG] [ap] [129][service_manager]: HFP-HF service register success
+[    0.348600] [14] [ DEBUG] [ap] [129][service_manager]: HFP-AG service register success
+[    0.348800] [14] [ DEBUG] [ap] [129][service_manager]: SPP service register success
+[    0.349000] [14] [ DEBUG] [ap] [129][service_manager]: HID-DEV service register success
+[    0.349100] [14] [ DEBUG] [ap] [129][service_manager]: GATTC service register success
+[    0.349300] [14] [ DEBUG] [ap] [129][service_manager]: GATTS service register success
+[    0.349500] [14] [ DEBUG] [ap] [201][adapter-stm]: Enter, PrevState=(null) ---> NewState=Off
+key = qemu.timezone | value = Unknown/Unknown
+[    0.351300] [14] [  INFO] [ap] [228][audio_control]: audio_ctrl_init, enter
+[    0.351800] [14] [ DEBUG] [ap] [316][audio_transport]: audio_transport_open path{4}[sco_ctrl] success
+[    0.352000] [14] [  INFO] [ap] [242][audio_control]: audio_ctrl_init, success
+[    0.352100] [14] [  INFO] [ap] [228][audio_control]: audio_ctrl_init, enter
+[    0.352300] [14] [ DEBUG] [ap] [231][audio_control]: audio_ctrl_init, repeated attempt
+[    0.352500] [14] [ ERROR] [ap] [74][h4]: bt_sal_hci_transport_init: open /dev/ttyHCI0 fail, err:Unknown error 2
+[    0.352800] [14] [ DEBUG] [ap] [53][stack_manager]: stack_manager_cleanup done
+[    0.353300] [14] [  INFO] [ap] [258][audio_control]: audio_ctrl_cleanup, done
+[    0.353500] [14] [  INFO] [ap] [258][audio_control]: audio_ctrl_cleanup, done
+[    0.353800] [14] [ DEBUG] [ap] [204][storage]: bt_storage_cleanup
+[    0.354400] [14] [ DEBUG] [ap] [269][bt_service]: bt_service_cleanup done
+[    0.354700] [14] [  INFO] [ap] [147][audio_transport]: transport_chnl_close_cb transport freed:0x0x403e8910
+[    0.359400] [10] [  INFO] [ap] sysevent_dev_poll: setup: 1
+[    0.361800] [21] [  WARN] [ap] Successfully connected to unix socket /var/run/dbus/system_bus_socket
+[    0.403000] [21] [  INFO] [ap] driver: 0x15f39fc, name: rilmodem
+[    0.403500] [21] [  INFO] [ap] RILDEV detected modem type ril, 1 SIM slot(s)
+[    0.403800] [21] [  INFO] [ap] update_record_modem_time flag:0 status:0, target status:0 
+[    0.410500] [21] [  INFO] [ap] Using /dev/socket/rild as socket for slot 0.
+[    0.413000] [21] [  INFO] [ap] ofono_modem_reset , err : -115
+[    0.535900] [15] [  INFO] [ap] [AT_RIL] Found Multimode Modem. Supported techs mask: 00000063. Current tech: 32
+[    0.540200] [15] [  INFO] [ap] [RIL_CPP] new client connect
+[    0.541200] [21] [  INFO] [ap] [0,UNSOL]< UNSOL_RIL_CONNECTED
+[    0.542600] [21] [  INFO] [ap] [0,0001]> RIL_REQUEST_GET_MODEM_STATUS
+[    0.543000] [21] [  INFO] [ap] [0,UNSOL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED (state: OFF)
+[    0.545300] [15] [  INFO] [ap] [AT_RIL] onRequest: 147<->RIL_REQUEST_GET_MODEM_STATUS, reqtype: 1
+[    0.545600] [15] [  INFO] [ap] [AT_MODEM] response RIL_REQUEST_GET_MODEM_STATUS, status is [0]
+[    0.546300] [21] [  INFO] [ap] [0,0001]< RIL_REQUEST_GET_MODEM_STATUS
+[    0.546500] [21] [  INFO] [ap] modem_change_state, Modem [/ril_0], old state: 0, new state: 1
+INFO    | Your emulator is out of date, please update by launching Android Studio:
+ - Start Android Studio
+ - Select menu "Tools > Android > SDK Manager"
+ - Click "SDK Tools" tab
+ - Check "Android Emulator" checkbox
+ - Click "OK"
+INFO    | Boot completed
+INFO    | Increasing screen off timeout, logcat buffer size to 2M.
+INFO    | Not revoking microphone permissions for Google App.
+[   10.596700] [20] [  WARN] [ap] [AMS] LowMemoryManager policy read "/etc/lmk.cfg" file
+[   10.597900] [20] [  INFO] [ap] [AMS] system total memory:130222076, used:2093880 free:128128196
+[   10.598500] [20] [  WARN] [ap] [AMS] lmk is reported by cycle query
+[   10.675000] [20] [  INFO] [ap] [AMS] start activity, target: action:action.system.BOOT_GUIDE  flag:0
+[   10.704400] [20] [ ERROR] [ap] [AMS] can't find target by intent[,action.system.BOOT_GUIDE]
+[   10.704800] [20] [  INFO] [ap] [AMS] startBootGuide failed, startHomeActivity
+[   10.705300] [20] [  INFO] [ap] [AMS] start activity, target: action:action.system.HOME  flag:0
+[   10.734800] [20] [ ERROR] [ap] [AMS] can't find target by intent[,action.system.HOME]
+[   10.735300] [20] [ ERROR] [ap] [AMS] Startup home app failure!!!
+[   18.548800] [12] [  INFO] [ap] adb_register_service (338): id=1, peer=750
+[   19.726800] [12] [  INFO] [ap] adb_register_service (338): id=2, peer=753
+[   76.051600] [12] [  INFO] [ap] on_child_exit (104): shell 2<->753 exited with status 0, signal 0, flag 0
+[   76.110900] [12] [  INFO] [ap] adb_register_service (338): id=3, peer=756
+[   76.117600] [12] [  INFO] [ap] on_child_exit (104): shell 3<->756 exited with status 0, signal 0, flag 0
+[   76.274800] [12] [  INFO] [ap] adb_register_service (338): id=4, peer=762
+[   76.396800] [12] [  INFO] [ap] adb_register_service (338): id=5, peer=765
+[   77.766400] [12] [  INFO] [ap] on_child_exit (104): shell 5<->765 exited with status 0, signal 0, flag 0
+[   77.807200] [12] [  INFO] [ap] adb_register_service (338): id=6, peer=768
+[   77.813500] [12] [  INFO] [ap] on_child_exit (104): shell 6<->768 exited with status 0, signal 0, flag 0
+[   78.105800] [12] [  INFO] [ap] adb_register_service (338): id=7, peer=774
+[   78.123300] [12] [  INFO] [ap] on_child_exit (104): shell 7<->774 exited with status 0, signal 0, flag 0
+[   78.157800] [12] [  INFO] [ap] adb_register_service (338): id=8, peer=777
+[   78.161300] [20] [  INFO] [ap] [AMS] start activity, target:com.codex.yakata.uipreview action:  flag:1
+[   78.165000] [78] [  INFO] [ap] [AIOTJS] [StartServer:89] Start Debug Server ...
+[   78.165400] [78] [  INFO] [ap] [AIOTJS] [start:43] InspectorServer::start worker already started
+[   78.167600] [78] [  INFO] [ap] [AIOTJS] [getDeviceId:34] get device serial: NA
+[   78.168100] [78] [  WARN] [ap] [AIOTJS] [getDeviceId:42] no device info
+[   78.169900] [78] [  INFO] [ap] [AMS] start Application:com.codex.yakata.uipreview execfile:vappxms
+[   78.171100] [78] [  INFO] [ap] [AIOTJS] [onCreate:40] Application onCreate
+[   78.172600] [12] [  INFO] [ap] on_child_exit (104): shell 8<->777 exited with status 0, signal 0, flag 0
+[   78.176500] [20] [  INFO] [ap] [AMS] attachApplication. pid:78 packagename:[com.codex.yakata.uipreview]
+[   78.177300] [20] [  INFO] [ap] [AMS] pushNewActivity com.codex.yakata.uipreview/QuickActivity flag-cleartask:0
+[   78.179600] [20] [  INFO] [ap] [AMS] lifecycleTransition com.codex.yakata.uipreview/QuickActivity [creating] to [resumed]
+[   78.181600] [78] [  INFO] [ap] [AMS] scheduleLaunchActivity package:com.codex.yakata.uipreview activity:QuickActivity token[0x4057d320]
+[   78.184500] [78] [  CRIT] [ap] [LVGL] [User]	(78.184, +78184)	 check_stack_size: tid: 78, Stack size : 130944 lv_nuttx_entry.c:268
+[   78.184900] [78] [  WARN] [ap] [LVGL] [Warn]	(78.184, +0)	 lv_init: lv_init: already initialized lv_init.c:150
+[   78.185400] [78] [  CRIT] [ap] [LVGL] [User]	(78.185, +1)	 font_manager_set_base_path: /data//font font_manager.c:165
+[   78.189600] [78] [  WARN] [ap] [LVGLProxy] LVGLDriverProxy: app window is using partial render mode
+[   78.200900] [78] [  INFO] [ap] [AIOTJS] [onCreate:71] Activity onCreate
+[   78.331200] [78] [  INFO] [ap] [AIOTJS] [getFilePathInPackage:946] filename is empty, use package path:/data/app/com.codex.yakata.uipreview
+[   78.335900] [78] [  WARN] [ap] [Animation] [registerProperty:408]  repeat registration, name: width , property type: 3
+[   78.337400] [78] [  WARN] [ap] [Animation] [registerProperty:408]  repeat registration, name: height , property type: 4
+[   78.338800] [78] [  WARN] [ap] [Animation] [registerProperty:408]  repeat registration, name: rotate , property type: 12
+[   78.339500] [78] [  WARN] [ap] [Animation] [registerProperty:408]  repeat registration, name: scale , property type: 11
+[   78.340800] [78] [  WARN] [ap] [Animation] [registerProperty:408]  repeat registration, name: x , property type: 5
+[   78.341500] [78] [  WARN] [ap] [Animation] [registerProperty:408]  repeat registration, name: y , property type: 6
+[   78.342200] [78] [  WARN] [ap] [Animation] [registerProperty:408]  repeat registration, name: opacity , property type: 13
+[   78.355000] [78] [  INFO] [ap] [AIOTJS] [init:225] Initializing App - hap://app/com.codex.yakata.uipreview ...
+[   78.387000] [78] [  INFO] [ap] [AIOTJS] [getDeviceId:34] get device serial: NA
+[   78.387600] [78] [  WARN] [ap] [AIOTJS] [getDeviceId:42] no device info
+[   78.388800] [78] [  INFO] [ap] [FEATURE] [init:50] package_name is com.codex.yakata.uipreview!
+[   78.390100] [78] [  INFO] [ap] [FEATURE] [system_volume_onRegister:42] [jidl_feature] volume_impl::system_volume_onRegister()
+
+[   78.390800] [78] [  INFO] [ap] [FEATURE] [system_media_session_onRegister:96] [jidl_feature] session_impl::system_media_session_onRegister()
+
+[   78.391600] [78] [  INFO] [ap] [FEATURE] [system_record_onRegister:68] rec::system_record_onRegister(), feature_name: system.record
+
+[   78.392300] [78] [  INFO] [ap] [FEATURE] [Error_onRegister:24] [jidl_feature] Error_impl::Error_onRegister()
+
+[   78.393000] [78] [  INFO] [ap] [FEATURE] [locale_onRegister:26] [jidl_feature] locale_impl::locale_onRegister()
+
+[   78.393900] [78] [  INFO] [ap] [FEATURE] [system_cipher_onRegister:36] [system_cipher_impl]
+[   78.394400] [78] [  INFO] [ap] [FEATURE] [system_configuration_onRegister:24] [jidl_feature] Configuration_impl::system_configuration_onRegister()
+
+[   78.395500] [78] [  INFO] [ap] [FEATURE] [system_device_onRegister:38] [jidl_feature] Device_impl::system_device_onRegister()
+
+[   78.396300] [78] [  INFO] [ap] [FEATURE] [system_exchange_onRegister:53] [jidl_feature] exchange_impl::system_exchange_onRegister()
+
+[   78.397000] [78] [  INFO] [ap] [FEATURE] [system_internal_activity_onRegister:126] [jidl_feature] activity_feature_impl::system_internal_activity_onRegister()
+
+[   78.397800] [78] [  INFO] [ap] [FEATURE] [system_internal_package_onRegister:27] [jidl_feature] package_impl::system_internal_package_onRegister()
+
+[   78.398600] [78] [  INFO] [ap] [FEATURE] [system_internal_power_onRegister:29] [jidl_feature] power_impl::system_internal_power_onRegister()
+
+[   78.401500] [78] [  INFO] [ap] [FEATURE] [system_media_onRegister:139] [jidl_feature] Media_impl::system_media_onRegister()
+
+[   78.402200] [78] [  INFO] [ap] [FEATURE] [system_prompt_onRegister:29] [jidl_feature] Prompt_impl::system_prompt_onRegister()
+
+[   78.402900] [78] [  INFO] [ap] [FEATURE] [system_router_onRegister:66] [jidl_feature] router::system_router_onRegister()
+[   78.403500] [78] [  INFO] [ap] [FEATURE] [system_sensor_onRegister:899] [jidl_feature] sensor_impl::system_sensor_onRegister()
+
+[   78.404400] [78] [  INFO] [ap] [FEATURE] [system_storage_onRegister:130] [jidl_feature] storage_impl::system_storage_onRegister()
+
+[   78.404900] [78] [  INFO] [ap] [FEATURE] [system_vibrator_onRegister:60] [jidl_feature] vibrator_impl::system_vibrator_onRegister()
+
+[   78.406000] [78] [  INFO] [ap] [AIOTJS] [initialize_runtime_js_internal:506] created FeatureManagerQjs: 0x403dadd0
+[   78.407300] [78] [  INFO] [ap] [AIOTJS] [addApp:67] Add package_name: com.codex.yakata.uipreview
+[   78.408100] [78] [  INFO] [ap] [AIOTJS] [ApplicationInspector:37] create app inspector ...
+[   78.409000] [78] [  INFO] [ap] [AIOTJS] [createModules:62] Enter create modules ...
+[   78.411500] [80] [  INFO] [ap] [AIOTJS] [doServer:239] doServer start ...
+[   78.414200] [80] [  INFO] [ap] [AIOTJS] [start:32] service channel start ...
+[   78.414800] [80] [  INFO] [ap] [AIOTJS] [start:50] qemu channel start ...
+[   78.415800] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   79.421300] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   80.429700] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   81.441700] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   82.458100] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   83.475200] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   84.481500] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   85.491200] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   86.496500] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   87.504400] [80] [  WARN] [ap] [AIOTJS] [getMqttAddrFromFile:26] /tmp/quickapp_debug_cfg.json no exist
+[   88.426200] [78] [  INFO] [ap] [AIOTJS] [handleMetaInf:816] proto: 0
+[   88.434200] [78] [  INFO] [ap] [AIOTJS] [initDeclaredFeatures:253] insert feature name:system.storage
+[   88.434800] [78] [  INFO] [ap] [AIOTJS] [initDeclaredFeatures:253] insert feature name:system.file
+[   88.435300] [78] [  INFO] [ap] [AIOTJS] [initDeclaredFeatures:253] insert feature name:system.prompt
+[   88.436400] [78] [  INFO] [ap] [AIOTJS] [package_name:62] packageName:com.codex.yakata.uipreview
+[   88.451300] [78] [  INFO] [ap] [AIOTJS] [run:375] Launching App - hap://app/com.codex.yakata.uipreview ...
+[   88.457300] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:$app_define$
+[   88.458100] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:$app_bootstrap$
+[   88.458600] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:$app_require$
+[   88.459200] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:setTimeout
+[   88.459900] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:clearTimeout
+[   88.460500] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:setInterval
+[   88.461100] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:clearInterval
+[   88.461900] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:setGlobalInterval
+[   88.462300] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:clearGlobalInterval
+[   88.463100] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:setGlobalTimeout
+[   88.463800] [78] [  INFO] [ap] [AIOTJS] [createFerryGlobal:298] copy to ferryGlobal key:clearGlobalTimeout
+[   88.466600] [78] [ ERROR] [ap] [AIOTJS] [openFile:32] Failed to open: /data/app/com.codex.yakata.uipreview/app.jsc , mode: 0, error:Unknown error 2
+[   88.507000] [78] [  INFO] [ap] [AIOTJS] [loadApplicationStyle:224] load Application Style from com.codex.yakata.uipreview isJsRpk=1
+[   88.508200] [78] [  INFO] [ap] [AIOTJS] [BuildStyleSheet:38] css builder data type=0
+[   88.508900] [78] [  INFO] [ap] [AIOTJS] [build:61] build style as Normal
+[   88.509800] [78] [  INFO] [ap] [AIOTJS] [onEvent:91] AppCallHook name:onCreate 
+[   88.516100] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 app created
+[   88.516800] [78] [  INFO] [ap] [AIOTJS] [onEvent:91] AppCallHook name:onShow 
+[   88.517600] [78] [  WARN] [ap] [AIOTJS] [onEvent:98] Application::callHook ignore, no onShow
+[   88.524300] [78] [  INFO] [ap] [AIOTJS] [push:38] PageNavigator::push routeInfo:package:com.codex.yakata.uipreview,path:/
+[   88.525400] [78] [  INFO] [ap] [AIOTJS] [getPageInfo:360] RouteInfo:  /
+[   88.526200] [78] [  INFO] [ap] [AIOTJS] [getPageInfoByName:181] info.name:pages/index
+[   88.527500] [78] [  INFO] [ap] [AIOTJS] [~AppLoader:64] ~AppLoader
+[   88.528000] [78] [  INFO] [ap] [AIOTJS] [launchQuickApp:236] Start main loop...
+[   88.543100] [20] [  INFO] [ap] [AMS] reportActivityStatus called by com.codex.yakata.uipreview/QuickActivity [created]
+[   88.544900] [20] [  INFO] [ap] [AMS] lifecycleTransition com.codex.yakata.uipreview/QuickActivity [starting] to [resumed]
+[   88.547900] [78] [  INFO] [ap] [AIOTJS] [doPush:193] PageNavigator push page:pages/index
+[   88.548500] [78] [  INFO] [ap] [AIOTJS] [openPage:308] openPage, page stack size:0
+[   88.549100] [78] [  INFO] [ap] [AIOTJS] [openPage:311] PageNavigator openPage:
+[   88.551900] [78] [ ERROR] [ap] [AIOTJS] [openFile:32] Failed to open: /data/app/com.codex.yakata.uipreview/pages/index/index.jsc , mode: 0, error:Unknown error 2
+[   88.554000] [80] [ ERROR] [ap] [AIOTJS] [getMqttAddrFromFile:32] open /tmp/quickapp_debug_cfg.json failed
+[   88.556000] [80] [ ERROR] [ap] [AIOTJS] [start:54] get ide path failed
+[   88.557100] [80] [ ERROR] [ap] [AIOTJS] [doServer:2[   88.782700] [78] [  INFO] [ap] [AIOTJS] [__app_require:69] app_require feature: @app-module/system.file, realname:system.file
+54] channel manager start failed
+[   88.787400] [80] [  INFO] [ap] [AIOTJS] [doStop:218] Out InspectorServer loop ...
+[   88.795800] [78] [  INFO] [ap] [AIOTJS] [__app_require:90] Find feautre in new manager: system.file
+[   88.796900] [78] [  INFO] [ap] [FEATURE] [ensureJsClass:508] last class_id: 0.
+[   88.797300] [78] [  INFO] [ap] [FEATURE] [ensureJsClass:517] created class_id: 54.
+[   88.799000] [78] [  INFO] [ap] [AIOTJS] [__app_require:69] app_require feature: @app-module/system.storage, realname:system.storage
+[   88.800800] [78] [  INFO] [ap] [FEATURE] [system_storage_onCreate:136] [jidl_feature] storage_impl::system_storage_onCreate()
+
+[   88.826000] [78] [  INFO] [ap] [AIOTJS] [__app_require:90] Find feautre in new manager: system.storage
+[   88.827200] [78] [  INFO] [ap] [FEATURE] [system_storage_onRequired:157] [jidl_feature] storage_impl::system_storage_onRequired()
+
+[   88.828100] [78] [  INFO] [ap] [AIOTJS] [__app_require:69] app_require feature: @app-module/system.prompt, realname:system.prompt
+[   88.830000] [78] [  INFO] [ap] [FEATURE] [system_prompt_onCreate:34] [jidl_feature] Prompt_impl::system_prompt_onCreate()
+
+[   88.830900] [78] [  INFO] [ap] [AIOTJS] [__app_require:90] Find feautre in new manager: system.prompt
+[   88.831700] [78] [  INFO] [ap] [FEATURE] [system_prompt_onRequired:41] [jidl_feature] Prompt_impl::system_prompt_onRequired()
+
+[   88.868000] [78] [  INFO] [ap] [AIOTJS] [Page:73] new page, new vm page_info:name:pages/index,component:index,path:/pages/index
+[   88.869100] [78] [  INFO] [ap] [AIOTJS] [registerSubComponentFactory:276] ignore page_exports default, entry
+[   88.870400] [78] [  INFO] [ap] [AIOTJS] [init:137] Page init page_info:name:pages/index,component:index,path:/pages/index
+[   88.876200] [78] [  INFO] [ap] [AIOTJS] [callHook:66] PageCallHook, name:onInit argc:0
+[   88.884800] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_settings_v1,default=
+[   88.891700] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 title ready UI_CHOICE_CONTAINER_5
+[   88.892500] [78] [  INFO] [ap] [AIOTJS] [init:43] DomPage init
+[   88.893200] [78] [  INFO] [ap] [AIOTJS] [BuildStyleSheet:38] css builder data type=0
+[   88.894200] [78] [  INFO] [ap] [AIOTJS] [build:58] build style as AIOT
+[   88.894800] [78] [  INFO] [ap] [AIOTJS] [buildAIOTCSS:128] AIOT Style count:62
+[   88.903400] [78] [  INFO] [ap] [AIOTJS] [operator():396] refresh fontface: titlefont
+[   88.905200] [78] [  CRIT] [ap] [LVGL] [User]	(88.905, +10720)	 font_manager_add_path: name: l__3_0_titlefont, path: /data/app/com.codex.yakata.uipreview/common/title-font.ttf add success font_manager.c:193
+[   88.906300] [78] [  INFO] [ap] [AIOTJS] [operator():396] refresh fontface: yakata
+[   88.906900] [78] [  CRIT] [ap] [LVGL] [User]	(88.906, +1)	 font_manager_add_path: name: l__3_1_yakata, path: /data/app/com.codex.yakata.uipreview/common/watch.otf add success font_manager.c:193
+[   88.908600] [78] [  INFO] [ap] [AIOTJS] [CreateDomBuilder:50] Create JS AIOT builder
+[   88.909200] [78] [  INFO] [ap] [AIOTJS] [build:116] DomComponent build begin:0x406c4a48 uid=3 state=0
+[   88.922300] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[   88.941900] [78] [  INFO] [ap] [AIOTJS] [build:120] entities: 37, root:0x40734eb0(type:0): 40
+[   88.942500] [78] [  INFO] [ap] [AIOTJS] [build:123] mapping widget tree ...
+[   88.943700] [78] [  INFO] [ap] [AIOTJS] [build:134] DomComponent build end:0x406c4a48 uid=3
+[   88.946700] [78] [  INFO] [ap] [AIOTJS] [ready:222] Page ready page_info:name:pages/index,component:index,path:/pages/index
+[   88.949200] [78] [  INFO] [ap] [AIOTJS] [onForeground:46] Application onForeground
+[   89.106900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:149] DomComponent doMapWidget ready
+[   89.108900] [78] [  INFO] [ap] [AMS] scheduleStartActivity package:com.codex.yakata.uipreview token[0x4057d320]
+[   89.109700] [78] [  INFO] [ap] [AIOTJS] [onStart:96] Activity onStart
+[   89.111100] [20] [  INFO] [ap] [AMS] reportActivityStatus called by com.codex.yakata.uipreview/QuickActivity [started]
+[   89.113500] [20] [  INFO] [ap] [AMS] lifecycleTransition com.codex.yakata.uipreview/QuickActivity [resuming] to [resumed]
+[   89.132600] [78] [  INFO] [ap] [AMS] scheduleResumeActivity package:com.codex.yakata.uipreview token[0x4057d320]
+[   89.133400] [78] [  INFO] [ap] [AIOTJS] [onResume:101] Activity onResume
+[   89.135100] [20] [  INFO] [ap] [AMS] reportActivityStatus called by com.codex.yakata.uipreview/QuickActivity [resumed]
+[   89.136300] [20] [  INFO] [ap] [AMS] broadcastTopActivity:com.codex.yakata.uipreview/QuickActivity
+[   89.386000] [78] [  INFO] [ap] [AIOTJS] [show:162] Page show page_info:name:pages/index,component:index,path:/pages/index
+[   89.387300] [78] [  INFO] [ap] [AIOTJS] [callHook:66] PageCallHook, name:onShow argc:0
+[   89.677800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406df9a0 event type=293
+[   89.678800] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=16
+[   89.679600] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x2
+[   89.683100] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406df9a0
+[   89.765800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406df9a0 event type=293
+[   89.766600] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=16
+[   89.767100] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x4
+[   89.768000] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406df9a0
+[   89.768800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406df9a0 event type=293
+[   89.769200] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=16
+[   89.769700] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[   89.776200] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406df9a0
+[   89.798900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   89.952700] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 frame fixture 0
+[   89.956500] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[   89.962400] [78] [  INFO] [ap] [AIOTJS] [cacheIdDomElement:256] cacheIdDomElement reading
+[   89.970900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   89.972200] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   89.977100] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   89.977600] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   90.963800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406e1d78 event type=505
+[   90.964500] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=48
+[   90.965000] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[   90.967800] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 menu
+[   90.968300] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406e1d78
+[   90.969300] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[   90.978100] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   90.982600] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   90.983300] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   91.827500] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406df798 event type=252
+[   91.828300] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=59
+[   91.829300] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[   91.830800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406df798
+[   92.660400] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406d3780 event type=327
+[   92.661000] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=60
+[   92.661300] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[   92.665400] [78] [  WARN] [ap] [FEATURE] [convertValueToNative:455] js callback is undefined!
+[   92.666200] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_set:323] [STORAGE_SET] key=yakata_rw5_settings_v1,value={"schema":1,"fontSize":24,"charDelay":30,"autoSpeed":1}
+[   92.668100] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406d3780
+[   92.839200] [78] [ ERROR] [ap] [FEATURE] [finish_callback:232] invoke success callback failed !
+[   93.505000] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406d3780 event type=327
+[   93.505700] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=60
+[   93.506200] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[   93.508500] [78] [  WARN] [ap] [FEATURE] [convertValueToNative:455] js callback is undefined!
+[   93.509200] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_set:323] [STORAGE_SET] key=yakata_rw5_settings_v1,value={"schema":1,"fontSize":24,"charDelay":30,"autoSpeed":2}
+[   93.510900] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406d3780
+[   93.673100] [78] [ ERROR] [ap] [FEATURE] [finish_callback:232] invoke success callback failed !
+[   94.361000] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406d3780 event type=327
+[   94.361500] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=60
+[   94.362500] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[   94.364800] [78] [  WARN] [ap] [FEATURE] [convertValueToNative:455] js callback is undefined!
+[   94.365300] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_set:323] [STORAGE_SET] key=yakata_rw5_settings_v1,value={"schema":1,"fontSize":24,"charDelay":30,"autoSpeed":0}
+[   94.367100] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406d3780
+[   94.521600] [78] [ ERROR] [ap] [FEATURE] [finish_callback:232] invoke success callback failed !
+[   95.222100] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406f37b8 event type=417
+[   95.222800] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=63
+[   95.223300] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[   95.225300] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406f37b8
+[   95.226300] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[   95.229500] [78] [  INFO] [ap] [AIOTJS] [cacheIdDomElement:256] cacheIdDomElement reading
+[   95.234300] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   95.234900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   95.270900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[   97.831800] [78] [  INFO] [ap] [AIOTJS] [build:1092] == JsElement::build proto_name:scroll, len:6
+[   97.832700] [78] [  INFO] [ap] [AIOTJS] [initElementProto:1026] initElementProto
+[   97.839900] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 frame fixture 1
+[  100.831900] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 choice fixture 2
+[  100.833800] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  100.836800] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  100.842400] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  100.915800] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 choice painted 1 choice false 2
+[  103.109000] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406d3c38 event type=489
+[  103.109700] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=82
+[  103.110200] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  103.113400] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 menu
+[  103.113800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406d3c38
+[  103.115200] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  103.124600] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  103.968700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406dc598 event type=327
+[  103.969300] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=92
+[  103.969900] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  103.971800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406dc598
+[  103.972600] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  103.983800] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  103.985000] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  104.818300] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406d3c38 event type=467
+[  104.819000] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=103
+[  104.819500] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  104.821100] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406d3c38
+[  104.822100] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  104.829200] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  104.887500] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  105.318900] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40aeb568 event type=177
+[  105.320200] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=108
+[  105.321100] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  105.325100] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_1,default=
+[  105.327000] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_2,default=
+[  105.328300] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_3,default=
+[  105.329800] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_4,default=
+[  105.330900] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40aeb568
+[  105.332000] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  105.342200] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  105.342900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  105.359100] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  105.480900] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 slots ready save 0
+[  105.551500] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  106.190000] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406d3780 event type=494
+[  106.190400] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=123
+[  106.190900] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  106.191800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406d3780
+[  106.192400] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  106.199800] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  106.271600] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  106.685700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40b58fe8 event type=177
+[  106.686200] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=148
+[  106.687500] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  106.690500] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_1,default=
+[  106.691600] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_2,default=
+[  106.693200] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_3,default=
+[  106.695900] [78] [  INFO] [ap] [FEATURE] [system_storage_wrap_get:290] [STORAGE_GET] key=yakata_rw5_slot_v1_4,default=
+[  106.697600] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40b58fe8
+[  106.698700] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  106.716700] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  106.719100] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  106.747100] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  106.847500] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 slots ready load 0
+[  106.909900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  107.538300] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406d3780 event type=494
+[  107.539000] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=162
+[  107.539700] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  107.541400] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406d3780
+[  107.542400] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  107.550500] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  107.615400] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  108.048100] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40b586f0 event type=71
+[  108.048800] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=184
+[  108.050100] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  108.057800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40b586f0
+[  108.058800] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  108.071400] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  108.072300] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  108.888400] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40b54c00 event type=494
+[  108.889100] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=208
+[  108.889700] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  108.901600] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40b54c00
+[  109.720700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40aeeda8 event type=494
+[  109.721300] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=207
+[  109.721800] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  109.723800] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 title
+[  109.724400] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40aeeda8
+[  109.725600] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  109.735400] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  109.835700] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  110.133700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40b58aa8 event type=393
+[  110.134400] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=226
+[  110.135000] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x2
+[  110.136100] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40b58aa8
+[  110.226700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40b58aa8 event type=393
+[  110.227500] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=226
+[  110.228100] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x4
+[  110.229300] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40b58aa8
+[  110.229900] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40b58aa8 event type=393
+[  110.230500] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=226
+[  110.231000] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  110.234600] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40b58aa8
+[  110.236200] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  110.253900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  110.254600] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  111.063500] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x406e0af8 event type=250
+[  111.064200] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=239
+[  111.064600] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  111.066500] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x406e0af8
+[  111.067600] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  111.079900] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  111.080800] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  111.913900] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40aed570 event type=464
+[  111.914500] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=261
+[  111.914900] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  111.917700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40aed570
+[  111.918400] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  111.930600] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  112.020000] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  112.417700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40d31cf8 event type=494
+[  112.418400] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=284
+[  112.419000] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  112.422100] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 title
+[  112.422600] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40d31cf8
+[  112.423800] [78] [ ERROR] [ap] [AIOTJS] [InspectHostSetDomAttributes:78] Unsupported type for setDomAttributes: 2
+[  112.434200] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  112.539300] [78] [  INFO] [ap] [AIOTJS] [doMapWidget:262] DomIfFragment::doMapWidget state=2
+[  113.177800] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40d34a68 event type=493
+[  113.178600] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=301
+[  113.179100] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x2
+[  113.180300] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40d34a68
+[  113.284500] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40d34a68 event type=493
+[  113.284900] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=301
+[  113.285300] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x4
+[  113.286600] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40d34a68
+[  113.287300] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:251] process event begin widiget=0x40d34a68 event type=493
+[  113.287800] [78] [  INFO] [ap] [AIOTJS] [doProcessEventCallback:302] Do Process Event: state=4 elem uid=301
+[  113.288500] [78] [  INFO] [ap] [AIOTJS] [processEvent:26] process Event:0x1
+[  113.290500] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 exit requested
+[  113.291300] [78] [  INFO] [ap] [AIOTJS] [notifyEvent:683] notify AMS activity finish
+[  113.292900] [20] [  INFO] [ap] [AMS] moveTaskToBack taskTag:com.codex.yakata.uipreview
+[  113.296200] [20] [  INFO] [ap] [AMS] lifecycleTransition com.codex.yakata.uipreview/QuickActivity [pausing] to [paused]
+[  113.298200] [20] [  WARN] [ap] [AMS] stopApplication target:com.codex.yakata.uipreview by token[0x4057feb0]
+[  113.300700] [78] [  INFO] [ap] [AIOTJS] [processEventCallback:285] process event end widiget=0x40d34a68
+[  113.314000] [78] [  INFO] [ap] [AMS] schedulePauseActivity package:com.codex.yakata.uipreview token[0x4057d320]
+[  113.315100] [78] [  INFO] [ap] [AIOTJS] [onPause:173] Activity onPause
+[  113.316700] [20] [  INFO] [ap] [AMS] reportActivityStatus called by com.codex.yakata.uipreview/QuickActivity [paused]
+[  113.317900] [20] [  INFO] [ap] [AMS] lifecycleTransition com.codex.yakata.uipreview/QuickActivity [resuming] to [resumed]
+[  113.319700] [78] [  INFO] [ap] [AIOTJS] [onBackground:51] Applicaiton onBackground
+[  113.347400] [78] [  INFO] [ap] [AIOTJS] [onForeground:46] Application onForeground
+[  113.348600] [78] [  WARN] [ap] [AMS] terminateApplication package:com.codex.yakata.uipreview
+[  113.350500] [78] [  INFO] [ap] [AMS] scheduleResumeActivity package:com.codex.yakata.uipreview token[0x4057d320]
+[  113.351600] [78] [  INFO] [ap] [AIOTJS] [onResume:101] Activity onResume
+[  113.352100] [78] [  INFO] [ap] [AIOTJS] [showQuickApp:248] showQuickApp
+[  113.355200] [20] [  INFO] [ap] [AMS] reportActivityStatus called by com.codex.yakata.uipreview/QuickActivity [resumed]
+[  113.355900] [20] [  INFO] [ap] [AMS] broadcastTopActivity:com.codex.yakata.uipreview/QuickActivity
+[  113.649700] [78] [  INFO] [ap] [AIOTJS] [onStop:178] Activity onStop
+[  113.650600] [78] [  INFO] [ap] [AIOTJS] [hideQuickApp:266] hideQuickApp
+[  113.651200] [78] [  INFO] [ap] [AIOTJS] [postAppNotify:547] postAppNotify type:0
+[  113.652700] [20] [  INFO] [ap] [AMS] reportActivityStatus called by com.codex.yakata.uipreview/QuickActivity [stoped]
+[  113.654100] [78] [  INFO] [ap] [AIOTJS] [onDestroy:184] Activity onDestroy
+[  113.654500] [78] [  INFO] [ap] [AIOTJS] [destroy:455] Application destroy sync mode:0
+[  113.654900] [78] [  INFO] [ap] [AIOTJS] [destroy:460] Closing App - com.codex.yakata.uipreview ...
+[  113.655300] [78] [  INFO] [ap] [AIOTJS] [clearAll:159] PageNavigator::clearAll
+[  113.656100] [78] [  INFO] [ap] [AIOTJS] [destroy:266] Page destroy page_info:name:pages/index,component:index,path:/pages/index
+[  113.656700] [78] [  INFO] [ap] [AIOTJS] [callHook:66] PageCallHook, name:onDestroy argc:0
+[  113.658800] [78] [  INFO] [ap] [AIOTJS] [onRemove:115] dom page remove <3> 0x406c4a48
+[  113.663800] [78] [  INFO] [ap] [AIOTJS] [destroy:284] page destroy rungc
+[  113.665400] [78] [  INFO] [ap] [FEATURE] [removeInstance:70] remove FeatureInstance name:system.storage
+[  113.667000] [78] [  INFO] [ap] [FEATURE] [system_storage_onDetached:163] [jidl_feature] storage_impl::system_storage_onDetached()
+
+[  113.667900] [78] [  INFO] [ap] [FEATURE] [removeInstance:70] remove FeatureInstance name:system.prompt
+[  113.668600] [78] [  INFO] [ap] [FEATURE] [system_prompt_onDetached:56] [jidl_feature] Prompt_impl::system_prompt_onDetached()
+
+[  113.669700] [78] [  INFO] [ap] [FEATURE] [removeInstance:70] remove FeatureInstance name:system.file
+[  113.670900] [78] [  INFO] [ap] [AIOTJS] [~Page:78] Page real destroy!!! page_info:name:pages/index,component:index,path:/pages/index
+[  113.671900] [78] [  INFO] [ap] [AIOTJS] [destroy:471] flush tasks, updates:0, mappending:38, delete:0, tasks.empty:0
+[  113.678200] [78] [  INFO] [ap] [AIOTJS] [onEvent:167] PageNavigator get event:2
+[  113.678700] [78] [  WARN] [ap] [AIOTJS] [onEvent:170] no current page
+[  113.679100] [78] [  INFO] [ap] [AIOTJS] [onEvent:91] AppCallHook name:onHide 
+[  113.679500] [78] [  WARN] [ap] [AIOTJS] [onEvent:98] Application::callHook ignore, no onHide
+[  113.682000] [78] [  INFO] [ap] [AIOTJS] [onEvent:167] PageNavigator get event:3
+[  113.682500] [78] [  WARN] [ap] [AIOTJS] [onEvent:170] no current page
+[  113.683200] [78] [  INFO] [ap] [AIOTJS] [onEvent:91] AppCallHook name:onDestroy 
+[  113.684300] [78] [  INFO] [ap] [quickapp] YAKATA_RW5 app destroyed
+[  113.686200] [78] [  INFO] [ap] [FEATURE] [system_prompt_onDestroy:71] [jidl_feature] Prompt_impl::system_prompt_onDestroy()
+
+[  113.687600] [78] [  INFO] [ap] [FEATURE] [system_storage_onDestroy:169] [jidl_feature] storage_impl::system_storage_onDestroy()
+
+[  113.689600] [78] [  INFO] [ap] [FEATURE] [Error_onUnregister:49] [jidl_feature] Error_impl::Error_onUnregister()
+
+[  113.690100] [78] [  INFO] [ap] [FEATURE] [locale_onUnregister:53] [jidl_feature] locale_impl::locale_onUnregister()
+
+[  113.690800] [78] [  INFO] [ap] [FEATURE] [system_configuration_onUnregister:49] [jidl_feature] Configuration_impl::system_configuration_onUnregister()
+
+[  113.691800] [78] [  INFO] [ap] [FEATURE] [system_device_onUnregister:59] [jidl_feature] Device_impl::system_device_onUnregister()
+
+[  113.692300] [78] [  INFO] [ap] [FEATURE] [system_exchange_onUnregister:78] [jidl_feature] exchange_impl::system_exchange_onUnregister()
+
+[  113.692900] [78] [  INFO] [ap] [FEATURE] [system_internal_activity_onUnregister:158] [jidl_feature] activity_feature_impl::system_internal_activity_onUnregister()
+
+[  113.693500] [78] [  INFO] [ap] [FEATURE] [system_internal_package_onUnregister:59] [jidl_feature] package_impl::system_internal_package_onUnregister()
+
+[  113.694200] [78] [  INFO] [ap] [FEATURE] [system_internal_power_onUnregister:54] [jidl_feature] power_impl::system_internal_power_onUnregister()
+
+[  113.694700] [78] [  INFO] [ap] [FEATURE] [system_media_onUnregister:176] [jidl_feature] Media_impl::system_media_onUnregister()
+
+[  113.695300] [78] [  INFO] [ap] [FEATURE] [system_media_session_onUnregister:121] [jidl_feature] session_impl::system_media_session_onUnregister()
+
+[  113.695900] [78] [  INFO] [ap] [FEATURE] [system_prompt_onUnregister:87] [jidl_feature] Prompt_impl::system_prompt_onUnregister()
+
+[  113.696400] [78] [  INFO] [ap] [FEATURE] [system_record_onUnregister:112] rec::system_record_onUnregister(), feature_name: system.record
+
+[  113.697000] [78] [  INFO] [ap] [FEATURE] [system_router_onUnregister:91] [jidl_feature] router::system_router_onUnregister()
+[  113.697600] [78] [  INFO] [ap] [FEATURE] [system_sensor_onUnregister:951] [jidl_feature] sensor_impl::system_sensor_onUnregister()
+
+[  113.698200] [78] [  INFO] [ap] [FEATURE] [system_storage_onUnregister:184] [jidl_feature] storage_impl::system_storage_onUnregister()
+
+[  113.698800] [78] [  INFO] [ap] [FEATURE] [system_vibrator_onUnregister:98] [jidl_feature] vibrator_impl::system_vibrator_onUnregister()
+
+[  113.699300] [78] [  INFO] [ap] [FEATURE] [system_volume_onUnregister:67] [jidl_feature] volume_impl::system_volume_onUnregister()
+
+[  113.701200] [78] [  CRIT] [ap] [LVGL] [User]	(113.701, +24795)	 font_manager_remove_path: remove name: l__3_0_titlefont, path: /data/app/com.codex.yakata.uipreview/common/title-font.ttf font_manager.c:206
+[  113.702100] [78] [  CRIT] [ap] [LVGL] [User]	(113.702, +1)	 font_manager_remove_path: remove name: l__3_1_yakata, path: /data/app/com.codex.yakata.uipreview/common/watch.otf font_manager.c:206
+[  113.704500] [78] [  INFO] [ap] [AIOTJS] [free_runtime:541] Free runtime...
+[  114.722800] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:194] ### AIOTJS ### ======== quickjs memory usage ======== 
+[  114.723600] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:197] * version: 2021-03-27 32-bit
+[  114.724100] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:198] * malloc limit: 8388608
+[  114.724700] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:200] --------------------------------------------
+[  114.725200] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:201] NAME                    COUNT     SIZE
+[  114.725600] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:202] --------------------------------------------
+[  114.726200] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:205] memory allocated         3018   446452  (147.9 per block)
+[  114.727300] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:207] memory used              3232   423347  (8 overhead, 7.1 average slack)
+[  114.728000] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:213] atoms                    1456    49387  (33.9 per atom)
+[  114.728600] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:218] strings                    10      364  (36.4 per string)
+[  114.729200] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:223] objects                   350    19600  (56.0 per object)
+[  114.729900] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:225]   properties             1705    15456  (4.9 per object)
+[  114.730500] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:227]   shapes                  120    24712  (205.9 per shape)
+[  114.731100] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:232] bytecode functions        250   275085
+[  114.731600] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:234]   bytecode                250    33228  (132.9 per function)
+[  114.732600] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:237]   pc2line                 212      379  (1.8 per function)
+[  114.733200] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:243] C functions               219
+[  114.733600] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:248] arrays                      2
+[  114.734000] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:251]   fast arrays               2
+[  114.734400] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:253]   elements                  0        0  (0.0 per fast array)
+[  114.734900] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:263] --------------------------------------------
+[  114.735500] [78] [  INFO] [ap] [AIOTJS] [jse_dump_memory_status:264] ### AIOTJS ### ======== quickjs memory usage ======== 
+[  114.743300] [78] [  INFO] [ap] [AIOTJS] [destroy:528] App Closed - com.codex.yakata.uipreview
+[  114.770200] [20] [  INFO] [ap] [AMS] reportActivityStatus called by com.codex.yakata.uipreview/QuickActivity [destroyed]
+[  114.773600] [78] [  WARN] [ap] [AMS] ApplicationThread stop
+[  114.777200] [78] [  INFO] [ap] [AIOTJS] [onDestroy:56] Application onDestroy
+[  114.778600] [78] [  INFO] [ap] [AMS] Uvloop close
+[  114.778900] [78] [  WARN] [ap] [AMS] Application[vappxms]:com.codex.yakata.uipreview has been stopped!!!
+[  114.792800] [20] [  WARN] [ap] [AMS] AppSpawn pid:78 had exit
+[  114.794000] [20] [  INFO] [ap] [AMS] start activity, target: action:action.system.HOME  flag:0
+[  114.829100] [20] [ ERROR] [ap] [AMS] can't find target by intent[,action.system.HOME]
+[  114.829700] [20] [ ERROR] [ap] [AMS] Startup home app failure!!!
+[  114.830600] [20] [  WARN] [ap] [AMS] child process:78 normal exit:0

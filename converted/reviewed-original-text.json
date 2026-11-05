@@ -1,0 +1,479 @@
+[
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 0,
+    "speaker": "",
+    "text": "并没有什么前兆，那件事情就发生了。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 7,
+    "speaker": "",
+    "text": "当时，街上人山人海。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 8,
+    "speaker": "",
+    "text": "有的在商场里购物，有的在餐馆用餐，有的在公园里打发时间……。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 9,
+    "speaker": "",
+    "text": "一成不变的日常。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 10,
+    "speaker": "",
+    "text": "今天一定也是安稳的一天。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 11,
+    "speaker": "",
+    "text": "任何人都对此深信不疑。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 12,
+    "speaker": "",
+    "text": "没有理由不相信，这样的日子会在今天明天大后天一直持续下去。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 13,
+    "speaker": "",
+    "text": "谁都没有想到，会突然有从“其他存在”从“其他世界”到来，破坏自己的生活。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 14,
+    "speaker": "",
+    "text": "但是，它确实发生了。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 16,
+    "speaker": "",
+    "text": "――非人的存在。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 18,
+    "speaker": "",
+    "text": "简直就像是电影或小说中出现的魔法一般。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 22,
+    "speaker": "",
+    "text": "也没有解决方法。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 23,
+    "speaker": "",
+    "text": "但是，就是有“这样的存在”，这就是这样的一个故事……。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 24,
+    "speaker": "美亚",
+    "text": "「哈啊…………哈啊…………哈啊…………」"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 25,
+    "speaker": "",
+    "text": "肩膀大幅度起伏，气喘吁吁地，美亚在深林中走着。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 26,
+    "speaker": "美亚",
+    "text": "「哈啊…………哈啊…………哈啊…………」"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 31,
+    "speaker": "",
+    "text": "从开始逃跑，至今已经移动了多大距离呢。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 32,
+    "speaker": "",
+    "text": "不知不觉中冲入了森林之中，这个选择究竟正确与否，她并不知道。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 33,
+    "speaker": "美亚",
+    "text": "「为什么……会有这种事……」"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 34,
+    "speaker": "",
+    "text": "虽然在逃跑，但是她还没有对事态做出正确的理解。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 35,
+    "speaker": "",
+    "text": "说到底，现在，到底发生了什么……。"
+  },
+  {
+    "scene": "intro",
+    "source": "可调用资源\\json\\patch\\s101.txt.scn.json",
+    "sourceSha256": "34636a644c4b33f1855cef6fcd6454fea360817db75fef80b952fe7229a1721b",
+    "sourceScene": 0,
+    "sourceTextIndex": 37,
+    "speaker": "美亚",
+    "text": "「不是梦吗？如果不是的话……那种……」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 0,
+    "speaker": "美亚",
+    "text": "「……………………」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 1,
+    "speaker": "",
+    "text": "美亚睁开眼睛的时候，最先看到的是房间的天花板。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 2,
+    "speaker": "",
+    "text": "似乎带有什么图形，但是并不能看得很清楚。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 3,
+    "speaker": "",
+    "text": "是什么花纹吗，短时间内无意义地如此思考着。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 4,
+    "speaker": "美亚",
+    "text": "「这里是……」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 6,
+    "speaker": "",
+    "text": "看上去像是哪个建筑物里的房间，但是美亚对于这个地方完全没有印象。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 9,
+    "speaker": "",
+    "text": "但是，这完全是个陌生的场所。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 10,
+    "speaker": "",
+    "text": "天花板和墙壁的颜色，桌子和床，还有窗帘的花样，都不曾出现在美亚的记忆之中。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 11,
+    "speaker": "美亚",
+    "text": "「我……是怎么了？」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 12,
+    "speaker": "",
+    "text": "慢慢地坐起身来。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 20,
+    "speaker": "美亚",
+    "text": "「……………………」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 21,
+    "speaker": "",
+    "text": "完全不清楚到底发生了什么事。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 22,
+    "speaker": "",
+    "text": "无论多少次环视房间中的摆设，记忆中都没有这样的地方。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 26,
+    "speaker": "美亚",
+    "text": "「但是，我……在森林中……」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 27,
+    "speaker": "",
+    "text": "中断的记忆渐渐苏醒。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 28,
+    "speaker": "",
+    "text": "如果没有记错的话，美亚应该是遇到了一名来路不明的男人。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 30,
+    "speaker": "美亚",
+    "text": "「……………………」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 33,
+    "speaker": "",
+    "text": "既然如此，那为什么现在会睡在这个房间里……。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 35,
+    "speaker": "",
+    "text": "她注意到位于房间角落的衣柜。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 39,
+    "speaker": "",
+    "text": "衣柜里有一件衣服。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 40,
+    "speaker": "",
+    "text": "只是，那并非普通的洋装，而是以黑色为基调，附有花边和蕾丝，看上去十分贵重的衣服。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 41,
+    "speaker": "美亚",
+    "text": "「……………………」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 44,
+    "speaker": "美亚",
+    "text": "「……………………」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 45,
+    "speaker": "",
+    "text": "很奇妙的感觉。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 48,
+    "speaker": "美亚",
+    "text": "「这里……是宅邸或者公馆，这种地方吗？」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 49,
+    "speaker": "",
+    "text": "从窗户向外看，可以看到一个广阔的庭院"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 50,
+    "speaker": "",
+    "text": "挺远的周围被森林包围着，隐隐可以看到远处的城镇。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 51,
+    "speaker": "",
+    "text": "小心翼翼地查看庭院中是否有人在，但是并没有看到人影。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 52,
+    "speaker": "美亚",
+    "text": "「我……到底是怎么了？」"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 81,
+    "speaker": "",
+    "text": "望向房间的门。"
+  },
+  {
+    "scene": "room",
+    "source": "可调用资源\\json\\patch\\s102.txt.scn.json",
+    "sourceSha256": "fea483577ca8e290a5dce439363a3e9853616d02eab5e96fdde8e033062ceab0",
+    "sourceScene": 0,
+    "sourceTextIndex": 82,
+    "speaker": "",
+    "text": "就算继续留在这里，也无法更好地理解现在的状况。"
+  }
+]

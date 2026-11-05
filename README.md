@@ -14,13 +14,14 @@ SHA-256：`6dcbbeff2ac17fc8d5ec41f3b5bb419ba673289de6a4077dbba5809af319c8da`
 | [release/0.3.7/SHA256SUMS.txt](release/0.3.7/SHA256SUMS.txt) | 校验和 |
 | [release/0.3.7/交付核验.json](release/0.3.7/交付核验.json) | 构建校验结果 |
 | [release/0.3.7/死馆-RW5-0.3.7-UI源码与工具补丁.zip](release/0.3.7/死馆-RW5-0.3.7-UI源码与工具补丁.zip) | 覆盖到已有 0.3.6 工程的 UI 补丁（含页面、贴图、构建脚本、测试） |
+| [Releases · v0.3.7](https://github.com/xuanyide01/shinuyakata-rw5/releases/tag/v0.3.7) | 同版本完整源码 `shinuyakata-rw5-v0.3.7-full-source.zip`、校验和与说明 |
 
 ## 内容规模
 
 - **剧情**：69 个原作脚本、99 个源场景 → 198 个运行时页面，**17,394 条正文**，11 处选项全部保留分支。
 - **画面**：682 张舞台／CG 图，**56 组** CG 鉴赏（14 页，2×2 网格）。
 - **立绘**：277 张，按原作 `env` 逐帧判定出场／退场，CG 帧不叠立绘。
-- **完整收录**：成人／猎奇内容按原作全量保留并照原文翻译，未删减。
+- **完整收录**：原作全部剧情与画面按原文收录，未删减。
 - **未包含**：语音、BGM、OP 影片（原作约 800 MB 音频与视频不入包）。
 - **存档**：30 个栏位，覆盖前确认；`schema=1`，含 8 步历史。
 
@@ -40,6 +41,8 @@ SHA-256：`6dcbbeff2ac17fc8d5ec41f3b5bb419ba673289de6a4077dbba5809af319c8da`
 | 阅读菜单 | 存档 |
 | --- | --- |
 | ![菜单](docs/screenshots/0.3.7/menu-auto-on.png) | ![存档](docs/screenshots/0.3.7/slots.png) |
+
+更多界面（预览构建用纯色测试图，不含原作画面）：[preview](docs/screenshots/0.3.7/preview) · [production](docs/screenshots/0.3.7/production)
 
 ## 安装
 
@@ -72,7 +75,8 @@ SHA-256：`6dcbbeff2ac17fc8d5ec41f3b5bb419ba673289de6a4077dbba5809af319c8da`
 
 - `release/` —— 发布包与校验和
 - `docs/` —— 交接文档、UI 规格（`0.3.7/ui-spec.json`：贴图清单、CSS 原文、调色板）、截图
-- `src/` `tools/` `tests/` —— 本轮 UI 实现的可编译子集（不含剧情、CG、立绘、字库）
+- `src/` `tools/` `tests/` `converted/` —— 完整源码：页面 UI、引擎、剧情文本（201 个文本块）、
+  CG 与舞台图（398 张）、立绘（277 张）、字库、构建脚本与测试
 - `reports/` —— 审计与实测报告
 
 ## 许可与致谢
