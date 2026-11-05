@@ -1,0 +1,149 @@
+{
+  "scope": "Original non-narrative UI sprites only",
+  "sources": [
+    {
+      "source": "可调用资源/images/data/uipsd/title@allbtns%cref;off.png",
+      "sha256": "6983bbf8ae19e7d5a2fd67607a02927ac12d409f875e2e706a8fe56c42db0fdb"
+    },
+    {
+      "source": "可调用资源/images/data/uipsd/title@allbtns%cref;over.png",
+      "sha256": "600c31051464f20784cfd8a1562c688bfec26897dba02ed58b55bc0ac5b6a9d4"
+    },
+    {
+      "source": "可调用资源/images/data/uipsd/message@base%base.png",
+      "sha256": "e9b32ec5ec710dfa556d16b59401b53e053dad5fbbeb3211c77fde1e1b6dc619"
+    }
+  ],
+  "titleSpriteCrop": {
+    "width": 217,
+    "height": 46,
+    "pitchY": 50,
+    "rows": 5,
+    "normalSheetOffset": [
+      23,
+      16
+    ]
+  },
+  "outputs": [
+    {
+      "name": "box.png",
+      "bytes": 18421,
+      "sha256": "3361d4e69cd721fd35860dd173f170a027a98f7b4f543516c1bbe4d4228b1839"
+    },
+    {
+      "name": "btn.png",
+      "bytes": 669,
+      "sha256": "5b218ce49a3ec82c044ff48919987aae41d51f9c5707516cdd6ee891254ae617"
+    },
+    {
+      "name": "btn_press.png",
+      "bytes": 704,
+      "sha256": "c8f01d7c14e8000bc8c154bb26278530818d7f93fa7b40aae5b208921e83a6db"
+    },
+    {
+      "name": "btn_small.png",
+      "bytes": 575,
+      "sha256": "f048731036d7f64462fcec5b3501284517ff442f01cf19b6b153169814a2bed0"
+    },
+    {
+      "name": "btn_small_press.png",
+      "bytes": 610,
+      "sha256": "bc205eef8357c31e94354155bf27ce9782ecfd05b2976dd5bcfca3801ed280a2"
+    },
+    {
+      "name": "card_plate.png",
+      "bytes": 825,
+      "sha256": "a8f618f410f0ddf340ca7624f54dda75b3492e6485e1ac8bb1745663f8915c21"
+    },
+    {
+      "name": "chapter_plate.png",
+      "bytes": 817,
+      "sha256": "88c103d645930c172ef6fa98be2e0e69780f54adf76d8c5bc18dfcca6464d5ea"
+    },
+    {
+      "name": "cursor.png",
+      "bytes": 205,
+      "sha256": "d986bb0dafe64434784960a1601e551dab2d7b75a8700ac3db826c65b4550c65"
+    },
+    {
+      "name": "divider.png",
+      "bytes": 262,
+      "sha256": "b20e95f9ffe21f40baa0c60bf3f7b92c6bb438cb6033a9452c9a4f51f08179d6"
+    },
+    {
+      "name": "namebar.png",
+      "bytes": 192,
+      "sha256": "a178f772810ab0cdcfc4dd0dcccc3a0fac5d098d7f38844bfee556bd4323c73a"
+    },
+    {
+      "name": "panel.png",
+      "bytes": 1824,
+      "sha256": "11b8fd560f748408766aeebe4f83bd1eabf6b42d5e4139b2781b8f37dc6f657e"
+    },
+    {
+      "name": "panel_full.png",
+      "bytes": 21884,
+      "sha256": "0ee72e4dbb3133b2dc9a19326558e1162f4fd0698acb5a4092c4b747d7c20bc6"
+    },
+    {
+      "name": "slot_plate.png",
+      "bytes": 771,
+      "sha256": "df9a986978dc5591a3ca121c87fab6c028db073b67a323f4e9d38ce9f8fb4900"
+    },
+    {
+      "name": "title-end-over.png",
+      "bytes": 7896,
+      "sha256": "fb2b49827edbe8f9b5b7ccb3bd1c52a69f42502b4aa594d65061f837591969cb"
+    },
+    {
+      "name": "title-end.png",
+      "bytes": 1021,
+      "sha256": "17eb12f3d0bf6dbcc0de8f91293eefb22dd6cb2ea2602024225d81bc032510a0"
+    },
+    {
+      "name": "title-gallery-over.png",
+      "bytes": 7625,
+      "sha256": "04df6112018d10652967da3fabd0bccda0b4a2bcc1dd0237b912cebe6a7bbd88"
+    },
+    {
+      "name": "title-gallery.png",
+      "bytes": 949,
+      "sha256": "34b278824824f34a2b5d0aa6db328e6a17c0691a97f82675686c16e002f4311f"
+    },
+    {
+      "name": "title-load-over.png",
+      "bytes": 8143,
+      "sha256": "eda93f05552811c1afceccac6ab27da67669c519f30b8c79521c7f7404e6d004"
+    },
+    {
+      "name": "title-load.png",
+      "bytes": 1075,
+      "sha256": "d0a3b9b9de640525c9a9f1b9dc707fda140a9fde7fae5b6d4c75f8165f4dd5ad"
+    },
+    {
+      "name": "title-settings-over.png",
+      "bytes": 7095,
+      "sha256": "bbcdf923f1fdd63377717200bf4b5e1b4f5d78c5db0bf14e08037e8048f01517"
+    },
+    {
+      "name": "title-settings.png",
+      "bytes": 793,
+      "sha256": "9c27a8e20eb835e3b1daddcc51d3066d8bfea41563cd5205dbc0e6fe35cf988d"
+    },
+    {
+      "name": "title-shade.png",
+      "bytes": 22622,
+      "sha256": "b123ebef320ee5df942b5ebfbf198df46f59c15225e522d6627e1e772452f993"
+    },
+    {
+      "name": "title-start-over.png",
+      "bytes": 7963,
+      "sha256": "9814442559724af9decc0006d75b778b74a130f160e5736a3ede4a29a7fbe847"
+    },
+    {
+      "name": "title-start.png",
+      "bytes": 970,
+      "sha256": "3099b26ce918605aaf3b90c98faf224fc33ebbd61061182ba40f121fc8b13a32"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "exitMethod": " exitApplication(){if(this.loading||this.storageBusy)return;this.stopTimers();this.autoEnabled=false;this.loadToken++;this.slotToken++;this.activeTitle='';console.log('YAKATA_RW5 exit requested');this.$app.exit();},\n",
+  "originalEndHandler": "else if(id==='end')prompt.showToast({message:'手表端不提供退出：请按侧键返回桌面'});",
+  "newEndHandler": "else if(id==='end')this.exitApplication();"
+}

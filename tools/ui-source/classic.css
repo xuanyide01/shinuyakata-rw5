@@ -1,0 +1,66 @@
+
+@font-face { font-family:yakata; src:url('/common/watch.otf'); }
+@font-face { font-family:titlefont; src:url('/common/title-font.ttf'); }
+.screen-cover { position:absolute; left:0px; top:0px; width:432px; height:514px; background-color:#0b0912; }
+.page { width:432px; height:514px; background-color:#0b0912; color:#f0eaf2; flex-direction:column; font-family:yakata; }
+text { font-family:yakata; }
+.title { position:absolute; left:0px; top:0px; width:432px; height:514px; background-color:#0b0812; }
+.title-art { position:absolute; left:0px; top:0px; width:432px; height:243px; }
+.title-shade { position:absolute; left:0px; top:0px; width:432px; height:514px; }
+.title-logo { position:absolute; left:28px; top:60px; width:246px; height:171px; }
+.title-list { position:absolute; left:38px; top:244px; width:302px; height:250px; flex-direction:column; }
+.title-row { width:302px; height:50px; padding-left:6px; align-items:center; }
+.title-action { width:282px; height:60px; }
+.scene { position:absolute; left:0px; top:0px; width:432px; height:286px; }
+.art { width:432px; height:286px; background-color:#000000; }
+.background { position:absolute; left:0px; top:21px; width:432px; height:243px; }
+.portrait { position:absolute; }
+.scene-hint { position:absolute; left:50px; top:115px; width:332px; font-size:20px; color:#9e8ca8; text-align:center; }
+.dialogue-panel { position:absolute; left:0px; top:286px; width:432px; height:228px; flex-direction:column; background-image:url('/common/ui2/box.png'); background-size:432px 228px; }
+.name-row { width:432px; height:42px; padding-left:24px; padding-right:24px; align-items:center; }
+.speaker { font-size:22px; color:#e2b0ca; width:204px; lines:1; text-overflow:ellipsis; }
+.chapter-name { font-size:13px; color:#b7a5c4; width:180px; text-align:right; }
+.reading { width:384px; height:132px; margin-left:24px; margin-right:24px; flex-direction:column; align-items:flex-start; justify-content:flex-start; }
+.prose { width:384px; line-height:36px; color:#f2ecf4; font-family:yakata; }
+.toolbar { width:384px; height:50px; margin-left:24px; margin-right:24px; justify-content:space-between; align-items:center; }
+.tool { width:118px; height:42px; padding-top:10px; font-size:18px; color:#e5d8eb; text-align:center; background-image:url('/common/ui2/btn_small.png'); background-size:118px 42px; }
+.panel { position:absolute; left:0px; top:0px; width:432px; height:514px; padding-top:30px; padding-left:28px; padding-right:28px; flex-direction:column; background-color:#0b0912; background-image:url('/common/ui2/panel_full.png'); background-size:432px 514px; }
+.heading { width:376px; height:40px; padding-left:4px; font-size:26px; color:#ece2f1; lines:1; text-overflow:ellipsis; }
+.subheading { width:376px; height:30px; padding-left:4px; font-size:17px; color:#ac98b9; }
+.menu-heading { width:220px; }
+.section-link { position:absolute; left:268px; top:32px; width:132px; height:40px; padding-top:7px; font-size:18px; color:#d9b2ca; text-align:right; }
+.button { width:356px; height:52px; margin-top:10px; margin-left:10px; padding-top:12px; font-size:22px; color:#f3eaf5; text-align:center; background-image:url('/common/ui2/btn.png'); background-size:356px 52px; }
+.primary { color:#ffffff; }
+.muted { color:#c7b5d0; }
+.information { width:376px; margin-top:24px; margin-bottom:18px; font-size:22px; line-height:33px; color:#d6c8df; }
+.compact { font-size:19px; line-height:28px; margin-top:20px; }
+.menu-grid { width:376px; height:236px; margin-top:14px; margin-bottom:8px; flex-wrap:wrap; }
+.menu-cell { width:182px; height:66px; margin-right:6px; margin-bottom:9px; align-items:center; justify-content:center; background-image:url('/common/ui2/btn.png'); background-size:182px 66px; }
+.menu-cell { padding-top:21px; font-size:21px; color:#eadfed; text-align:center; }
+.menu-speed { font-size:18px; }
+.menu-text { font-size:21px; color:#eadfed; }
+.slots { width:376px; height:336px; flex-direction:column; }
+.slot { width:376px; height:76px; margin-bottom:8px; padding-left:14px; padding-right:12px; padding-top:5px; flex-direction:column; background-image:url('/common/ui2/slot_plate.png'); background-size:376px 76px; }
+.slot-name { height:25px; font-size:21px; color:#efe6f5; }
+.slot-meta { height:22px; font-size:16px; color:#c5accf; lines:1; text-overflow:ellipsis; }
+.slot-preview { height:20px; font-size:15px; color:#9c86aa; lines:1; text-overflow:ellipsis; }
+.pager { position:absolute; left:30px; top:451px; width:372px; height:44px; align-items:center; justify-content:space-between; }
+.pager-item { width:118px; height:44px; padding-top:11px; padding-bottom:9px; font-size:18px; color:#d4bddf; text-align:center; }
+.chapter-list { width:376px; height:330px; flex-direction:column; }
+.chapter-card { width:376px; height:92px; margin-bottom:12px; padding:14px; flex-direction:column; background-image:url('/common/ui2/chapter_plate.png'); background-size:376px 92px; }
+.card-name { width:348px; height:64px; font-size:23px; line-height:30px; color:#eee3f3; lines:2; text-overflow:ellipsis; }
+.card-meta { font-size:15px; color:#ad95bd; }
+.choices { position:absolute; left:0px; top:0px; width:432px; height:514px; padding-top:30px; padding-left:28px; padding-right:28px; flex-direction:column; background-color:#0b0912; background-image:url('/common/ui2/panel_full.png'); background-size:432px 514px; }
+.option-scroll { width:376px; height:346px; margin-top:20px; margin-bottom:14px; flex-direction:column; }
+.option-button { height:82px; padding-top:12px; line-height:28px; background-size:356px 82px; }
+.gallery-list { width:376px; height:326px; padding-top:3px; flex-direction:row; flex-wrap:wrap; justify-content:space-between; align-content:flex-start; }
+.gallery-card { width:178px; height:150px; margin-bottom:12px; flex-direction:column; align-items:center; background-image:url('/common/ui2/card_plate.png'); background-size:178px 150px; }
+.gallery-thumb { width:170px; height:96px; margin-top:4px; }
+.gallery-name { width:162px; height:27px; padding-top:2px; font-size:20px; text-align:center; lines:1; text-overflow:ellipsis; }
+.cg-heading { font-size:23px; }
+.cg-image { position:absolute; left:0px; top:104px; width:432px; height:243px; }
+.cg-label { position:absolute; left:32px; top:363px; width:368px; font-size:17px; }
+.cg-back { position:absolute; left:28px; top:403px; margin-left:10px; }
+.about-scroll { width:376px; height:336px; flex-direction:column; }
+.loading { position:absolute; left:100px; top:230px; width:232px; height:54px; padding-top:13px; background-color:#2b1f37; color:#f6eaf7; font-size:21px; text-align:center; }
+

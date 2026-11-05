@@ -1,0 +1,3 @@
+<script>
+export default {onCreate(){console.log("YAKATA_RW5 app created");},onDestroy(){console.log("YAKATA_RW5 app destroyed");}};
+</script>

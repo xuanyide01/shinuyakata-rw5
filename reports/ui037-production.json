@@ -1,0 +1,32 @@
+{
+  "result": "passed",
+  "kind": "production",
+  "package": "com.codex.yakata.rw5",
+  "version": "0.3.7",
+  "versionCode": 95,
+  "screens": [
+    "title",
+    "opening",
+    "menu-auto-off",
+    "menu-auto-on",
+    "menu-speed-1",
+    "menu-speed-2",
+    "menu-speed-3",
+    "title-before-exit",
+    "desktop-after-exit"
+  ],
+  "edgeChecks": [
+    "menu-auto-off",
+    "menu-auto-on",
+    "menu-speed-1",
+    "menu-speed-2",
+    "menu-speed-3"
+  ],
+  "autoLabelChangedImmediately": true,
+  "threeSpeedLabelsCycleImmediately": true,
+  "autoAdvancedToChoice": false,
+  "exitLifecycleObserved": true,
+  "panicOrAppErrors": [],
+  "genericImageHasNoHomeLauncher": true,
+  "visualReview": "Menu labels and representative panels inspected; edge checks use synthetic solid colors."
+}

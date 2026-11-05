@@ -1,0 +1,12 @@
+{
+  "name": "shinuyakata-rw5",
+  "version": "0.3.7",
+  "private": true,
+  "description": "REDMI Watch 5 visual novel UI source patch, without game content",
+  "license": "MIT",
+  "author": "xuanyide",
+  "scripts": {
+    "build": "node tools/build.cjs",
+    "test": "node --test tests/ui-controls.test.cjs"
+  }
+}
